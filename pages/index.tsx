@@ -8,110 +8,128 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <>
-      <main className={styles.main}>
-        <div className={styles.description}>
-          <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>pages/index.tsx</code>
-          </p>
-          <div>
-            <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              By{' '}
-              <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                className={styles.vercelLogo}
-                width={100}
-                height={24}
-                priority
-              />
-            </a>
+
+      <header className="header">
+        <nav className="navbar navbar-expand-lg">
+          <div className="container">
+            <a className="navbar-brand" href="#"> <img src="assets/images/logo.png" alt="logo" width={184} height={42} /> </a>
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span className="navbar-toggler-icon" /> </button>
+            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li className="nav-item"> <a className="nav-link active nav_link" aria-current="page" href="#">Home</a> </li>
+                <li className="nav-item"> <a className="nav-link nav_link" href="#">Services</a> </li>
+                <li className="nav-item"> <a className="nav-link nav_link" href="#">About US</a> </li>
+                <li className="nav-item"> <a className="nav-link nav_link" href="#">Testimonials</a> </li>
+                <li className="nav-item"> <a className="nav-link nav_link" href="#">Blog</a> </li>
+                <li className="nav-item"> <a className="nav-link nav_link" href="#">Contact Us</a> </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <hr />
+        <div className="hero">
+          <h1 className="hero-heading">Were a Results Driven <br /> Software Development agency</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed
+            <br /> doeiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <button type="button" className="btn_custome">Learn More</button>
+        </div>
+      </header>
+      <section className="container services">
+        <div className="services_typoghrapy">
+          <h6>Our Services</h6>
+          <h2>What we offer</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan
+            <br /> leo. Aliquam tempor orci sed ex facilisis vestibulum.</p>
+        </div>
+        <div className="row spacing_page gy-5">
+          <div className="col-12 col-md-4">
+            <div className="services-cards"> <img src="assets/images/DigitalStrategy.png" alt="DigitalStrategy" width="80px" height="80px" />
+              <h3>Digital Strategy</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.</p>
+              <a href=''> <img className="ms-auto" src="assets/images/arrow.png" alt="arrow" /> </a>
+            </div>
+          </div>
+          <div className="col-12 col-md-4">
+            <div className="services-cards"> <img src="assets/images/UXDesign.png" alt="DigitalStrategy" width="80px" height="80px" />
+              <h3>UX Design</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.</p>
+              <a href=''> <img className="ms-auto" src="assets/images/arrow.png" alt="arrow" /> </a>
+            </div>
+          </div>
+          <div className="col-12 col-md-4">
+            <div className="services-cards"> <img src="assets/images/ProductDesign.png" alt="DigitalStrategy" width="80px" height="80px" />
+              <h3>Product Design</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.</p>
+              <a href=''> <img className="ms-auto" src="assets/images/arrow.png" alt="arrow" /> </a>
+            </div>
+          </div>
+          <div className="col-12 col-md-4">
+            <div className="services-cards"> <img src="assets/images/ContentStrategy.png" alt="DigitalStrategy" width="80px" height="80px" />
+              <h3>Content Strategy</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.</p>
+              <a href=''> <img className="ms-auto" src="assets/images/arrow.png" alt="arrow" /> </a>
+            </div>
+          </div>
+          <div className="col-12 col-md-4">
+            <div className="services-cards"> <img src="assets/images/Design & Concept.png" alt="DigitalStrategy" width="80px" height="80px" />
+              <h3>Design &amp; Concept</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.</p>
+              <a href=''> <img className="ms-auto" src="assets/images/arrow.png" alt="arrow" /> </a>
+            </div>
+          </div>
+          <div className="col-12 col-md-4">
+            <div className="services-cards"> <img src="assets/images/SocialMedia.png" alt="DigitalStrategy" width="80px" height="80px" />
+              <h3>Social Media</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.</p>
+              <a href=''> <img className="ms-auto" src="assets/images/arrow.png" alt="arrow" /> </a>
+            </div>
           </div>
         </div>
-
-        <div className={styles.center}>
-          <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
-            priority
-          />
-          <div className={styles.thirteen}>
-            <Image
-              src="/thirteen.svg"
-              alt="13"
-              width={40}
-              height={31}
-              priority
-            />
+        <div className="text-center">
+          <button type="button" className="btn_custome">Learn More</button>
+        </div>
+      </section>
+      <section className="aboutus">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6">
+              <h5>About US</h5>
+              <h2>Were A Dynamic Team Of Software Developers.</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum. Duis accumsan diam mauris, sit amet tristique felis rutrum nec. In accumsan sapien eu egestas ultricies.</p>
+              <ul>
+                <li>Enim adminim veniam, quis nostrud tation</li>
+                <li>Enim adminim veniam, quis nostrud tation</li>
+                <li>Enim adminim veniam, quis nostrud tation</li>
+                <button type="button" className="btn_custome">Get Started Today</button>
+              </ul>
+            </div>
+            <div className="col-md-6">
+              <img className="ms-auto" src="assets/images/aboutus.png" alt="aboutus" />
+            </div>
           </div>
         </div>
-
-        <div className={styles.grid}>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Docs <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Find in-depth information about Next.js features and&nbsp;API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Learn <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Templates <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Deploy <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Vercel.
-            </p>
-          </a>
+      </section>
+      <section className="project-plan">
+        <div className="container">
+          <h3>Have an awesome project idea?</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan <br /> leo. Aliquam tempor orci sed ex facilisis vestibulum.</p>
+          <button type="button" className="btn_custome">Lets Discuss</button>
         </div>
-      </main>
+      </section>
+      <section className="Development">
+        <div className="container-fluid row">
+          <div className="col-md-6">
+          </div>
+          <div className="col-md-6">
+            <h5>Why choose us</h5>
+            <h2>Software Development Company that helps you succeed.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum. Duis accumsan diam mauris, sit amet tristique felis rutrum . In accumsan sapien eu egestas ultricies.</p>
+            <button type="button" className="btn_custome">Get Started Today</button>
+          </div>
+        </div>
+      </section>
+
+
     </>
   )
 }
