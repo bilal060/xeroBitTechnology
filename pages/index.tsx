@@ -2,36 +2,23 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from 'component/styles/Home.module.css'
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <>
-
       <header className="header">
-        <nav className="navbar navbar-expand-lg">
-          <div className="container">
-            <a className="navbar-brand" href="#"> <img src="assets/images/logo.png" alt="logo" width={184} height={42} /> </a>
-            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span className="navbar-toggler-icon" /> </button>
-            <div className="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li className="nav-item"> <a className="nav-link active nav_link" aria-current="page" href="#">Home</a> </li>
-                <li className="nav-item"> <a className="nav-link nav_link" href="#">Services</a> </li>
-                <li className="nav-item"> <a className="nav-link nav_link" href="#">About US</a> </li>
-                <li className="nav-item"> <a className="nav-link nav_link" href="#">Testimonials</a> </li>
-                <li className="nav-item"> <a className="nav-link nav_link" href="#">Blog</a> </li>
-                <li className="nav-item"> <a className="nav-link nav_link" href="#">Contact Us</a> </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
         <hr />
         <div className="hero">
           <h1 className="hero-heading">Were a Results Driven <br /> Software Development agency</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed
             <br /> doeiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <ScrollAnimation animateIn="fadeIn" animateOnce={true} delay={500} duration={2}>
+
           <button type="button" className="btn_custome">Learn More</button>
+            </ScrollAnimation>
         </div>
       </header>
       <section className="container services">
