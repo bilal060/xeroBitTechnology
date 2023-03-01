@@ -12,7 +12,7 @@ const Aboutus = () => {
               <h5>About US</h5>
               <h2>Were A Dynamic Team Of Software Developers.</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum. Duis accumsan diam mauris, sit amet tristique felis rutrum nec. In accumsan sapien eu egestas ultricies.</p>
-              <ul>
+              <ul className='about-items'>
                 <li>Enim adminim veniam, quis nostrud tation</li>
                 <li>Enim adminim veniam, quis nostrud tation</li>
                 <li>Enim adminim veniam, quis nostrud tation</li>

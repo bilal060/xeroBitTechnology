@@ -1,12 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
+import arrow from "../../assets/images/arrow.svg"
 import digitallogo from "../../assets/images/digital.svg"
 import uxdesignlogo from "../../assets/images/ux.svg"
 import productdesignlogo from "../../assets/images/product.svg"
 import contentlogo from "../../assets/images/content.svg"
 import designconceptlogo from "../../assets/images/design.svg"
 import socialmedialogo from "../../assets/images/social.svg"
-import arrow from "../../assets/images/arrow.svg"
+
 const Services = () => {
     return (
         <>

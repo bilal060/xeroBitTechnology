@@ -2,16 +2,15 @@ import Head from 'next/head'
 import Image from 'next/image'
 import rightimage from '../assets/images/hero-right-animation.svg'
 import { Inter } from 'next/font/google'
-//import styles from 'component/styles/Home.module.css'
 import Navbar from 'component/component/Navbar'
 import Services from 'component/component/services/Services'
 import Aboutus from 'component/component/Aboutus'
 import Projectidea from 'component/component/Projectidea'
 import Choseus from 'component/component/Choseus'
 import Blog from 'component/component/Blog'
-import Footer from 'component/component/Footer'
 import Contactus from 'component/component/Contactus'
 import Testimonial from 'component/component/Testimonial'
+import Footer from 'component/component/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -28,21 +27,14 @@ export default function Home() {
         </div>
         <Image src={rightimage} alt="" className='hero-rightimage img-fluid' />
       </header>
-
-
       <Services />
-
       <Aboutus />
-
       <Projectidea />
-
-
-
       <Choseus />
       <Testimonial />
       <Blog />
       <Contactus />
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }

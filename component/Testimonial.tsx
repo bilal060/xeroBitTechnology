@@ -3,7 +3,16 @@ import React from 'react'
 const Testimonial = () => {
     return (
         <>
-            <h1>testimonials</h1>
+            <section className='testimonials'>
+                <div className='container'>
+                    <div className='tes-conent'>
+                        <h6>testimonials</h6>
+                    </div>
+                    <div className='tes-slider'>
+
+                    </div>
+                </div>
+            </section>
         </>
     )
 }
