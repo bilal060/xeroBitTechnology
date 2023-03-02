@@ -805,6 +805,106 @@ text-align: center;
 
 /* Service page */
 
-.Service page{
+.main-header{
+    height: 500px;
+    background-color:  rgba(83, 144, 165, 0.05);
+}
 
+.main-header .mainheader-hero{
+  display: flex;
+  height: 80%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-header .mainheader-hero h1{
+  font-family:var(--ff-primary);
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 54px;
+text-align: center;
+text-transform: capitalize;
+color: #000000;
+padding-top: 30px;
+
+}
+.main-header .mainheader-hero h1::before{
+  content: url(../assets/images/Ellipseleft.svg);
+  top: 0;
+  left:0;
+  position: absolute;
+}
+.main-header .mainheader-hero h1::after{
+  content: url(../assets/images/Ellipseright.svg);
+  top: 0;
+  right:0;
+  position: absolute;
+}
+@media (max-width: 992px) {
+  .main-header .mainheader-hero h1::after{
+    content: " ";
+  }
+  .main-header .mainheader-hero h1::before{
+    content: " ";
+  }
+  }
+.main-header .mainheader-hero a{
+    text-decoration: none;
+font-family: var(--ff-primary);
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 17px;
+text-align: center;
+color: #5390A5;
+margin-right: 15px;
+
+}
+.main-header .mainheader-hero .pagination-link::after{
+  content: '>';
+  height: 12px;
+  display: inline-block;
+  position: relative;
+  color: #000000;
+  font-weight: bold;
+  padding-left: 18px;
+}
+.contact-icons{
+  margin: 60px 0;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #5390A5;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  padding: 5px 2px;
+}
+.contact-icons .text-icons h3{
+  font-family:var(--ff-primary);
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+text-transform: capitalize;
+color: #000000;
+margin-top: 18px;
+margin-left: 20px;
+}
+.contact-icons .text-icons p{
+  font-family:var(--ff-primary);
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+color: #3F3434;
+margin-left: 20px;
+}
+.contactus-icons-page{
+  height: 400px;
 }

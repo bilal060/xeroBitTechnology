@@ -1,12 +1,10 @@
 import Head from 'next/head'
 import Navbar from 'component/component/Navbar'
-import Services from 'component/component/services/Services'
 import Projectidea from 'component/component/Projectidea'
-import Testimonial from 'component/component/Testimonial'
-import Blog from 'component/component/Blog'
 import Contactus from 'component/component/Contactus'
+import Contactusicons from 'component/component/contactus/Contactusicons'
 import Footer from 'component/component/Footer'
-export default function Servicespage() {
+export default function Contactuspage() {
     return (
         <>
             <header className='main-header'>
@@ -15,17 +13,16 @@ export default function Servicespage() {
                 <div className='mainheader-hero'>
                     <div className='pagination-hero'>
                         <a href='' className='pagination-link'>Home</a>
-                        <a href='' >Services</a>
+                        <a href='' >Contact Us</a>
                     </div>
-                    <h1>Our Services</h1>
+                    <h1>Contact Us</h1>
                 </div>
             </header>
-            <Services />
+            < Contactusicons />
             <Projectidea />
-            <Testimonial />
-            <Blog />
             <Contactus />
             <Footer />
         </>
+
     )
 }

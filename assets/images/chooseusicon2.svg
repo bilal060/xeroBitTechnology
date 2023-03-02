@@ -1,33 +1,33 @@
-<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_bd_1_100)">
-<path d="M165 105C165 71.8629 138.137 45 105 45C71.8629 45 45 71.8629 45 105C45 138.137 71.8629 165 105 165H165V105Z" fill="white" fill-opacity="0.8" shape-rendering="crispEdges"/>
-<path d="M164.75 105C164.75 72.001 137.999 45.25 105 45.25C72.001 45.25 45.25 72.001 45.25 105C45.25 137.999 72.001 164.75 105 164.75H164.75V105Z" stroke="url(#paint0_linear_1_100)" stroke-width="0.5" shape-rendering="crispEdges"/>
-</g>
-<circle cx="105" cy="105" r="36" fill="#5390A5"/>
-<mask id="mask0_1_100" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="85" y="85" width="40" height="40">
-<path d="M85 85H125V125H85V85Z" fill="white"/>
-</mask>
-<g mask="url(#mask0_1_100)">
-<path d="M116.719 105C116.719 111.472 111.472 116.719 105 116.719C98.5279 116.719 93.2812 111.472 93.2812 105C93.2812 98.5279 98.5279 93.2812 105 93.2812C111.472 93.2812 116.719 98.5279 116.719 105Z" stroke="white" stroke-width="2.34375" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M110.859 101.484L103.828 108.516L99.1406 103.828" stroke="white" stroke-width="2.34375" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M103.48 86.7314C104.356 85.9854 105.644 85.9854 106.52 86.7314L109.565 89.4193L114.719 89.0205C115.866 88.9318 116.908 89.6887 117.178 90.8072L118.212 95.0865L122.715 97.782C123.695 98.3845 124.093 99.6093 123.654 100.673L121.875 104.984L123.654 109.294C124.093 110.358 123.695 111.583 122.715 112.185L118.212 114.881L117.178 119.16C116.908 120.278 115.866 121.035 114.719 120.947L109.616 120.552L106.52 123.269C105.644 124.015 104.356 124.015 103.48 123.269L100.384 120.552L95.2808 120.947C94.1336 121.035 93.0916 120.278 92.8216 119.16L91.7842 114.864L87.2887 112.185C86.3084 111.583 85.9105 110.358 86.3495 109.294L88.1284 104.984L86.3495 100.673C85.9105 99.6093 86.3084 98.3845 87.2887 97.782L91.3989 95.3402L92.8216 90.8072C93.0916 89.6887 94.1336 88.9318 95.2808 89.0205L100.435 89.4193L103.48 86.7314Z" stroke="white" stroke-width="2.34375" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<defs>
-<filter id="filter0_bd_1_100" x="-85" y="-85" width="380" height="380" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feGaussianBlur in="BackgroundImageFix" stdDeviation="65"/>
-<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1_100"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dx="-15" dy="-15"/>
-<feGaussianBlur stdDeviation="15"/>
-<feComposite in2="hardAlpha" operator="out"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"/>
-<feBlend mode="normal" in2="effect1_backgroundBlur_1_100" result="effect2_dropShadow_1_100"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_1_100" result="shape"/>
-</filter>
-<linearGradient id="paint0_linear_1_100" x1="131.25" y1="63" x2="1.5" y2="272.25" gradientUnits="userSpaceOnUse">
-<stop stop-color="white"/>
-<stop offset="1" stop-opacity="0"/>
-</linearGradient>
-</defs>
+<svg width={180} height={180} viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g filter="url(#filter0_bd_1_100)">
+    <path d="M165 105C165 71.8629 138.137 45 105 45C71.8629 45 45 71.8629 45 105C45 138.137 71.8629 165 105 165H165V105Z" fill="white" fillOpacity="0.8" shapeRendering="crispEdges" />
+    <path d="M164.75 105C164.75 72.001 137.999 45.25 105 45.25C72.001 45.25 45.25 72.001 45.25 105C45.25 137.999 72.001 164.75 105 164.75H164.75V105Z" stroke="url(#paint0_linear_1_100)" strokeWidth="0.5" shapeRendering="crispEdges" />
+  </g>
+  <circle cx={105} cy={105} r={36} fill="#5390A5" />
+  <mask id="mask0_1_100" style={{maskType: 'luminance'}} maskUnits="userSpaceOnUse" x={85} y={85} width={40} height={40}>
+    <path d="M85 85H125V125H85V85Z" fill="white" />
+  </mask>
+  <g mask="url(#mask0_1_100)">
+    <path d="M116.719 105C116.719 111.472 111.472 116.719 105 116.719C98.5279 116.719 93.2812 111.472 93.2812 105C93.2812 98.5279 98.5279 93.2812 105 93.2812C111.472 93.2812 116.719 98.5279 116.719 105Z" stroke="white" strokeWidth="2.34375" strokeMiterlimit={10} strokeLinecap="round" strokeLinejoin="round" />
+    <path d="M110.859 101.484L103.828 108.516L99.1406 103.828" stroke="white" strokeWidth="2.34375" strokeMiterlimit={10} strokeLinecap="round" strokeLinejoin="round" />
+    <path d="M103.48 86.7314C104.356 85.9854 105.644 85.9854 106.52 86.7314L109.565 89.4193L114.719 89.0205C115.866 88.9318 116.908 89.6887 117.178 90.8072L118.212 95.0865L122.715 97.782C123.695 98.3845 124.093 99.6093 123.654 100.673L121.875 104.984L123.654 109.294C124.093 110.358 123.695 111.583 122.715 112.185L118.212 114.881L117.178 119.16C116.908 120.278 115.866 121.035 114.719 120.947L109.616 120.552L106.52 123.269C105.644 124.015 104.356 124.015 103.48 123.269L100.384 120.552L95.2808 120.947C94.1336 121.035 93.0916 120.278 92.8216 119.16L91.7842 114.864L87.2887 112.185C86.3084 111.583 85.9105 110.358 86.3495 109.294L88.1284 104.984L86.3495 100.673C85.9105 99.6093 86.3084 98.3845 87.2887 97.782L91.3989 95.3402L92.8216 90.8072C93.0916 89.6887 94.1336 88.9318 95.2808 89.0205L100.435 89.4193L103.48 86.7314Z" stroke="white" strokeWidth="2.34375" strokeMiterlimit={10} strokeLinecap="round" strokeLinejoin="round" />
+  </g>
+  <defs>
+    <filter id="filter0_bd_1_100" x={-85} y={-85} width={380} height={380} filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+      <feFlood floodOpacity={0} result="BackgroundImageFix" />
+      <feGaussianBlur in="BackgroundImageFix" stdDeviation={65} />
+      <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1_100" />
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+      <feOffset dx={-15} dy={-15} />
+      <feGaussianBlur stdDeviation={15} />
+      <feComposite in2="hardAlpha" operator="out" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
+      <feBlend mode="normal" in2="effect1_backgroundBlur_1_100" result="effect2_dropShadow_1_100" />
+      <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_1_100" result="shape" />
+    </filter>
+    <linearGradient id="paint0_linear_1_100" x1="131.25" y1={63} x2="1.5" y2="272.25" gradientUnits="userSpaceOnUse">
+      <stop stopColor="white" />
+      <stop offset={1} stopOpacity={0} />
+    </linearGradient>
+  </defs>
 </svg>
