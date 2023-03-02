@@ -6,6 +6,8 @@ import Testimonial from 'component/component/Testimonial'
 import Blog from 'component/component/Blog'
 import Contactus from 'component/component/Contactus'
 import Footer from 'component/component/Footer'
+import Steps from 'component/component/services/Steps'
+import Strategy from 'component/component/services/Strategy'
 export default function Servicespage() {
     return (
         <>
@@ -22,6 +24,8 @@ export default function Servicespage() {
             </header>
             <Services />
             <Projectidea />
+            <Strategy />
+            <Steps />
             <Testimonial />
             <Blog />
             <Contactus />

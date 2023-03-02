@@ -21,7 +21,7 @@ const Contactusicons = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 col-lg-4 col-sm-12'>
+                    <div className='ncol-md-4 col-lg-4 col-sm-12'>
                         <div className='contact-icons'>
                             <div className='big-icon'>
                                 <Image src={emailicon} alt="call" />
