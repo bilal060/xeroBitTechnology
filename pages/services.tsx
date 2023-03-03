@@ -26,7 +26,7 @@ export default function Servicespage() {
             <Projectidea />
             <Strategy />
             <Steps />
-            <Testimonial />
+            {/* <Testimonial /> */}
             <Blog />
             <Contactus />
             <Footer />
