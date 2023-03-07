@@ -2,6 +2,9 @@ import Head from 'next/head'
 import Navbar from 'component/component/Navbar'
 import Projectidea from 'component/component/Projectidea'
 import Testimonial from 'component/component/Testimonial'
+import Webcustomization from 'component/component/webdevelopment/Webcustomization'
+import Buildingsolutions from 'component/component/webdevelopment/Buildingsolutions'
+import Technologie from 'component/component/webdevelopment/Technologie'
 import Footer from 'component/component/Footer'
 export default function Webdeveloment() {
     return (
@@ -17,12 +20,12 @@ export default function Webdeveloment() {
                     <h1>Web & Mobile Development</h1>
                 </div>
             </header>
-            <h1 className='text-center'>other componets in progresss......</h1>
+            <Webcustomization />
             <Projectidea />
-            <h1 className='text-center'>other componets in progresss......</h1>
+            <Buildingsolutions />
+            <Technologie />
             <Testimonial />
             <Footer />
         </>
-
     )
 }

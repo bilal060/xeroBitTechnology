@@ -334,7 +334,7 @@ p {
     align-items: center;
   }
 }
-.aboutus ul li, .services-strategy ul li, .dynamic-team ul li{
+.aboutus ul li, .services-strategy ul li, .dynamic-team ul li, .uxui-design ul li{
   margin-top: 33px;
   font-family: var(--ff-primary);
   font-style: normal;
@@ -346,7 +346,7 @@ p {
   list-style: none;
 
 }
-.aboutus ul li::before, .services-strategy ul li::before, .dynamic-team ul li::before{
+.aboutus ul li::before, .services-strategy ul li::before, .dynamic-team ul li::before, .uxui-design ul li::before{
   content: url(../assets/images/ticker.svg);
   top: -13px;
   left:-50px;
@@ -1025,7 +1025,7 @@ padding-top: 10px;
       }
   }
 
-  .services-strategy h3{
+  .services-strategy h3, .uxui-design h3{
 font-family: var(--ff-primary);
 font-style: normal;
 font-weight: 700;
@@ -1062,7 +1062,7 @@ padding-left: 7rem !important;
 } */
 
 /* About Us page */
-.dynamic-team h2, .aboutusdetails h2{
+.dynamic-team h2, .aboutusdetails h2, .uxuidetails h2{
   font-family: var(--ff-primary);
   font-style: normal;
   font-weight: 700;
@@ -1071,7 +1071,7 @@ padding-left: 7rem !important;
   text-transform: capitalize;
   color: #000000;
     }
-    .dynamic-team p, .aboutusdetails p{
+    .dynamic-team p, .aboutusdetails p, .uxuidetails p{
       font-family: var(--ff-primary);
       font-style: normal;
       font-weight: 400;

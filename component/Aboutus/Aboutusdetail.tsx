@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import aboutusdetails from "../../assets/images/Aboutusdetails.png"
-function Abouusdetail() {
+function Aboutusdetail() {
     return (
         <>
             <section className='aboutusdetails pt-5 pb-5'>
@@ -25,4 +25,4 @@ function Abouusdetail() {
     )
 }
 
-export default Abouusdetail
+export default Aboutusdetail

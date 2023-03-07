@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Navbar from 'component/component/Navbar'
 import Projectidea from 'component/component/Projectidea'
+import Uxuidesign from 'component/component/ux-ui-design/Uxuidesign'
+import Uxuidetails from 'component/component/ux-ui-design/Uxuidetails'
 import Testimonial from 'component/component/Testimonial'
 import Footer from 'component/component/Footer'
 export default function Uxuidesignpage() {
@@ -17,9 +19,9 @@ export default function Uxuidesignpage() {
                     <h1>UX/UI Design</h1>
                 </div>
             </header>
-            <h1 className='text-center'>other componets in progresss......</h1>
+            <Uxuidesign />
             <Projectidea />
-            <h1 className='text-center'>other componets in progresss......</h1>
+            <Uxuidetails />
             <Testimonial />
             <Footer />
         </>

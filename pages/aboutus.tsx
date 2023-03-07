@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Navbar from 'component/component/Navbar'
 import Dynamicteam from 'component/component/Aboutus/Dynamicteam'
 import Projectidea from 'component/component/Projectidea'
-import Abouusdetail from 'component/component/Aboutus/Abouusdetail'
+import Aboutusdetail from 'component/component/Aboutus/Aboutusdetail'
 import Support from 'component/component/Aboutus/Support'
 import Footer from 'component/component/Footer'
 export default function Aboutuspage() {
@@ -21,7 +21,7 @@ export default function Aboutuspage() {
             </header>
             <Dynamicteam />
             <Projectidea />
-            <Abouusdetail />
+            <Aboutusdetail />
             <Support />
             <Footer />
 
