@@ -1218,3 +1218,173 @@ color: #3F3434;
 .accordion-button {
   outline: none;
 }
+
+/* web and mobile development page */
+.web-customization {
+  padding:15px 0px;
+  background:rgba(83, 144, 165, 0.05); ;
+}
+.web-customization h5, .technologie .main-heading{
+  font-family:var(--ff-primary);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #5390A5;
+}
+.web-customization h2, .technologie h2{
+  font-family: var(--ff-primary);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+}
+.web-customization .web-customization-p, .technologie p{
+  width: 70%;
+  margin: 0 auto;
+  font-family:var(--ff-primary);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #3F3434;
+}
+.web-native{
+  background-color: white;
+  padding: 15px 20px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  margin: 5px 0px;
+}
+.web-native h4{
+  font-family:var(--ff-primary);
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 23px;
+text-transform: capitalize;
+color: #3F3434;
+margin-top: 20px;
+}
+.web-native p{
+  font-family:var(--ff-primary);
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #3F3434;
+opacity: 0.6;
+margin-top: 5px;
+width: 80%;
+}
+.web-native h6{
+  font-family: var(--ff-primary);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 15px;
+  text-transform: capitalize;
+  color: #3F3434;
+  margin-top: 5px;
+}
+.web-native h6 span{
+  color: var(--clr-primary);
+}
+.building-solutions h1{
+  font-family: var(--ff-primary);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+  width: 60%;
+  padding: 10px 0px;
+  margin: 0 auto;
+}
+.building-solutions p{
+  font-family:var(--ff-primary);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #3F3434;
+  width: 60%;
+  margin: 0 auto;
+  padding: 10px 0px;
+}
+.building-solutions h4{
+  font-family: var(--ff-primary);
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+text-align: center;
+text-transform: capitalize;
+color: #3F3434;
+padding: 20px 0px;
+}
+.technologie{
+  background: rgba(83, 144, 165, 0.05); ;
+}
+.technologies-icons{
+  background: white;
+}
+.technologie .technologies-icons h5{
+font-family: var(--ff-primary);
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+text-transform: capitalize;
+color: #000000;
+position: relative;
+}
+.technologie .technologies-icons h5::after {
+  content: "";
+  width: 11%;
+  height: 3px;
+  background: var(--clr-primary);
+  position: absolute;
+  bottom: 7px;
+  left: 18px;
+}
+.web-solutions h5{
+  font-family: var(--ff-primary);
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 17px;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+color: #5390A5;
+}
+.web-solutions h3{
+  font-family:var(--ff-primary);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  text-transform: capitalize;
+  color: #000000;
+}
+.web-solutions p{
+  font-family: var(--ff-primary);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #3F3434;
+}

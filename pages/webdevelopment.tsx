@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import Navbar from 'component/component/Navbar'
 import Projectidea from 'component/component/Projectidea'
-import Testimonial from 'component/component/Testimonial'
 import Webcustomization from 'component/component/webdevelopment/Webcustomization'
 import Buildingsolutions from 'component/component/webdevelopment/Buildingsolutions'
+import Websolutions from 'component/component/webdevelopment/Websolutions'
 import Technologie from 'component/component/webdevelopment/Technologie'
 import Footer from 'component/component/Footer'
 export default function Webdeveloment() {
@@ -20,11 +20,11 @@ export default function Webdeveloment() {
                     <h1>Web & Mobile Development</h1>
                 </div>
             </header>
+            <Websolutions />
             <Webcustomization />
-            <Projectidea />
             <Buildingsolutions />
             <Technologie />
-            <Testimonial />
+            <Projectidea />
             <Footer />
         </>
     )
