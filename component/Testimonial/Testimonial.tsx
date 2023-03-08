@@ -121,39 +121,39 @@ const Testimonial = () => {
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.
                         </p>
                     </div>
-                    <div className='tes-slider'>
-                        <Slider {...settings} dotsClass='d-none'>
-                            {feedBack.map((data, index) => {
-                                return (
-                                    <div key={index}>
-                                        <TestimonialCard>
-                                            <p className='mb-4'>{data.comment}</p>
-                                            <div className='d-flex justify-content-between align-items-end gap-16px pt-2'>
-                                                <div className='d-flex justify-content-start align-items-center gap-16px'>
-                                                    <Image src={data.icon} alt="" className='gap-16px' />
-                                                    <div>
-                                                        <p className='m-0 font-16 font-weight-700'>{data.name}</p>
-                                                        <p className='m-0 font-16 font-weight-400'>{data.workOn}</p>
+                </div>
+                <div className='tes-slider'>
+                    <Slider {...settings} dotsClass='d-none'>
+                        {feedBack.map((data, index) => {
+                            return (
+                                <div key={index}>
+                                    <TestimonialCard>
+                                        <p className='mb-4'>{data.comment}</p>
+                                        <div className='d-flex justify-content-between align-items-end gap-16px pt-2'>
+                                            <div className='d-flex justify-content-start align-items-center gap-16px'>
+                                                <Image src={data.icon} alt="" className='gap-16px' />
+                                                <div>
+                                                    <p className='m-0 font-16 font-weight-700'>{data.name}</p>
+                                                    <p className='m-0 font-16 font-weight-400'>{data.workOn}</p>
 
-                                                    </div>
-                                                </div>
-                                                <div className='d-flex gap-6px'>
-                                                    <Image src={rating} alt='' />
-                                                    <Image src={rating} alt='' />
-                                                    <Image src={rating} alt='' />
-                                                    <Image src={rating} alt='' />
-                                                    <Image src={rating} alt='' />
                                                 </div>
                                             </div>
+                                            <div className='d-flex gap-6px'>
+                                                <Image src={rating} alt='' />
+                                                <Image src={rating} alt='' />
+                                                <Image src={rating} alt='' />
+                                                <Image src={rating} alt='' />
+                                                <Image src={rating} alt='' />
+                                            </div>
+                                        </div>
 
-                                        </TestimonialCard>
-                                    </div>
-                                )
-                            })}
+                                    </TestimonialCard>
+                                </div>
+                            )
+                        })}
 
 
-                        </Slider>
-                    </div>
+                    </Slider>
                 </div>
             </section>
         </>
