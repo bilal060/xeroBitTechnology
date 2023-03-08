@@ -1,11 +1,8 @@
 :root {
 	--clr-primary: hsla(195, 33%, 49%, 1);
-<<<<<<< HEAD
 	--clr-secondary: #3F3434;
 	--clr-black: #000000;
-=======
 	--clr-dark-gray: #3F3434;
->>>>>>> c92ae34d4c2f1fdb3072aea67d93f583788bdbb8
 	--ff-primary: 'Montserrat', sans-serif;
 }
 
@@ -636,6 +633,9 @@ p {
 
 	.slick-prev {
 		left: 38% !important;
+	}
+	.testimonial-card{
+		min-width: 450px !important;
 	}
 }
 
