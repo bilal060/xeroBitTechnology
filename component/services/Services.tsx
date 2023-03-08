@@ -13,9 +13,9 @@ const Services = () => {
         <>
             <section className="container services">
                 <div className="services_typoghrapy">
-                    <h6>Our Services</h6>
-                    <h2>What we offer</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan
+                    <h6 className='font-weight-500 text-center'>Our Services</h6>
+                    <h2 className='font-weight-700 text-center'>What we offer</h2>
+                    <p className='font-16 text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan
                         <br /> leo. Aliquam tempor orci sed ex facilisis vestibulum.</p>
                 </div>
                 <div className="row spacing_page gy-5">

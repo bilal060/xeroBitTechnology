@@ -15,7 +15,7 @@ const Navbar = () => {
                     </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span className="navbar-toggler-icon" /> </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <ul className="navbar-nav ms-auto mb-2 mb-lg-0 g-2">
                             <li className="nav-item">
                                 <Link className={router.pathname == "/" ? "active nav-link nav_link" : "nav-link nav_link"} aria-current="page" href="/">
                                     Home

@@ -9,8 +9,8 @@ const Contactus = () => {
                 <div className='container'>
                     <div className='row '>
                         <div className='col-sm-12 col-md-6 col-lg-5'>
-                            <h5>  contact us </h5>
-                            <h3 className='mt-2'>fill out this form to get started</h3>
+                            <h6 className='font-weight-500'>  contact us </h6>
+                            <h2 className='font-weight-700 mt-2'>fill out this form to get started</h2>
                             <form
                                 method="POST"
                                 id="contactForm"

@@ -25,7 +25,7 @@ export default function Home() {
             <br /> doeiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           <button type="button" className="btn_custome">Learn More</button>
         </div>
-        <Image src={rightimage} alt="" className='hero-rightimage img-fluid' />
+        <Image src={rightimage} alt="" className='hero-rightimage' />
       </header>
       <Services />
       <Aboutus />
