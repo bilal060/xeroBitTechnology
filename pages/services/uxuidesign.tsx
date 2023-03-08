@@ -3,7 +3,7 @@ import Navbar from 'component/component/Navbar'
 import Projectidea from 'component/component/Projectidea'
 import Uxuidesign from 'component/component/ux-ui-design/Uxuidesign'
 import Uxuidetails from 'component/component/ux-ui-design/Uxuidetails'
-import Testimonial from 'component/component/Testimonial'
+import Testimonial from 'component/component/Testimonial/Testimonial'
 import Footer from 'component/component/Footer'
 export default function Uxuidesignpage() {
     return (

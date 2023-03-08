@@ -3,6 +3,7 @@ import Image from 'next/image'
 import blogimage1 from "../assets/images/blog1.png"
 import blogimage2 from "../assets/images/blog2.png"
 import blogimage3 from "../assets/images/blog3.png"
+import AnimatedButton from './Animated-btn'
 const Blog = () => {
     return (
         <>
@@ -32,7 +33,7 @@ const Blog = () => {
                         </div>
                     </div>
                     <div className='blog-btn mt-5 pt-2 mb-2'>
-                        <button type="button" className="btn_custome">View All</button>
+                        <AnimatedButton text='View All' />
                     </div>
                 </div>
             </section>

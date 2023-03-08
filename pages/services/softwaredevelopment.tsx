@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Navbar from 'component/component/Navbar'
 import Projectidea from 'component/component/Projectidea'
-import Testimonial from 'component/component/Testimonial'
+import Testimonial from 'component/component/Testimonial/Testimonial'
 import Footer from 'component/component/Footer'
 import Choseus from 'component/component/Choseus'
 export default function Webdeveloment() {

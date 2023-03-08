@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import contactusimage from "../assets/images/contactus.png"
+import AnimatedButton from './Animated-btn'
 
 const Contactus = () => {
     return (
@@ -77,7 +78,7 @@ const Contactus = () => {
                                     </div>
                                     <div className="col-md-12">
                                         <div className="form-group mt-3 pb-3 form-btn">
-                                            <button type="button" className="btn_custome">Send Message</button>
+                                            <AnimatedButton text='Send Message' />
                                         </div>
                                     </div>
                                 </div>

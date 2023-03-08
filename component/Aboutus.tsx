@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import aboutusimage from '../assets/images/aboutus.png'
 import ghraphimage from '../assets/images/ghraphimage.png'
+import AnimatedButton from './Animated-btn'
 const Aboutus = () => {
   return (
     <>
@@ -17,7 +18,7 @@ const Aboutus = () => {
                 <li>Enim adminim veniam, quis nostrud tation</li>
                 <li>Enim adminim veniam, quis nostrud tation</li>
                 <div className="btn-center">
-                  <button type="button" className="btn_custome">Get Started Today</button>
+                  <AnimatedButton text='Get Started Today' />
                 </div>
               </ul>
             </div>
