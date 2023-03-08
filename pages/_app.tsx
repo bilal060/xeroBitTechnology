@@ -1,5 +1,6 @@
 
 import 'component/styles/globals.css'
+import 'component/styles/responsive.css'
 import 'component/styles/style.css'
 import "bootstrap/dist/css/bootstrap.min.css"; // Import bootstrap CSS
 import { useEffect } from "react";
