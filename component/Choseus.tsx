@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Chooseusimage from '../assets/images/Choseus.png'
 import Choosusicon1 from '../assets/images/choosusicon1.svg'
 import Choosusicon2 from '../assets/images/chooseusicon2.svg'
+import AnimatedButton from './Animated-btn'
 const Choseus = () => {
     return (
         <>
@@ -18,7 +19,7 @@ const Choseus = () => {
                         <h2 className='font-weight-700'>Software Development Company that helps you succeed.</h2>
                         <p className='font-16'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum. Duis accumsan diam mauris, sit amet tristique felis rutrum . In accumsan sapien eu egestas ultricies.</p>
                         <div className='choose-btn mt-5'>
-                            <button type="button" className="btn_custome">Get Started Today</button>
+                            <AnimatedButton text='Get Started Today' />
                         </div>
                     </div>
                 </div>

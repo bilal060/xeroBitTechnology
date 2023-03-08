@@ -9,8 +9,9 @@ import Projectidea from 'component/component/Projectidea'
 import Choseus from 'component/component/Choseus'
 import Blog from 'component/component/Blog'
 import Contactus from 'component/component/Contactus'
-import Testimonial from 'component/component/Testimonial'
+import Testimonial from 'component/component/Testimonial/Testimonial'
 import Footer from 'component/component/Footer'
+import AnimatedButton from 'component/component/Animated-btn'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -23,7 +24,7 @@ export default function Home() {
           <h1 className="hero-heading">Were a Results Driven <br /> Software Development agency</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed
             <br /> doeiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <button type="button" className="btn_custome">Learn More</button>
+          <AnimatedButton text='Learn More' />
         </div>
         <Image src={rightimage} alt="" className='hero-rightimage' />
       </header>
