@@ -4,6 +4,7 @@ import Projectidea from 'component/component/Projectidea'
 import Webcustomization from 'component/component/webdevelopment/Webcustomization'
 import Buildingsolutions from 'component/component/webdevelopment/Buildingsolutions'
 import Websolutions from 'component/component/webdevelopment/Websolutions'
+import Portfolioslider from 'component/component/webdevelopment/Portfolioslider'
 import Technologie from 'component/component/webdevelopment/Technologie'
 import Footer from 'component/component/Footer'
 export default function Webdeveloment() {
@@ -25,6 +26,7 @@ export default function Webdeveloment() {
             <Buildingsolutions />
             <Technologie />
             <Projectidea />
+            <Portfolioslider />
             <Footer />
         </>
     )

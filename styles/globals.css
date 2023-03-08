@@ -87,6 +87,9 @@ select {
 
 /* Header  and Navbar */
 
+.nav-status{
+  z-index: 10001;
+}
 .header {
   height: 833px;
   background-image: url(../assets/images/header-bg.png);

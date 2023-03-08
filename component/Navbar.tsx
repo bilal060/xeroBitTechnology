@@ -1,25 +1,51 @@
 import React from 'react'
+import Link from "next/link"
+import { useRouter } from "next/router";
 import Image from 'next/image'
 import logo from '../assets/images/logo.png'
+import next from 'next'
 const Navbar = () => {
+    const router = useRouter();
     return (
         <>
-            <nav className="navbar navbar-expand-lg">
+            <nav className="navbar navbar-expand-lg nav-status">
                 <div className="container">
-                    <a className="navbar-brand" href="#">
+                    <Link className="navbar-brand" href="/">
                         <Image src={logo} alt="img" />
-                    </a>
-                    {/* <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon" /> </button> */}
+                    </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span className="navbar-toggler-icon" /> </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li className="nav-item"> <a className="nav-link active nav_link" aria-current="page" href="#">Home</a> </li>
-                            <li className="nav-item"> <a className="nav-link nav_link" href="#">Services</a> </li>
-                            <li className="nav-item"> <a className="nav-link nav_link" href="#">About US</a> </li>
-                            <li className="nav-item"> <a className="nav-link nav_link" href="#">Testimonials</a> </li>
-                            <li className="nav-item"> <a className="nav-link nav_link" href="#">Blog</a> </li>
-                            <li className="nav-item"> <a className="nav-link nav_link" href="#">Contact Us</a> </li>
+                            <li className="nav-item">
+                                <Link className={router.pathname == "/" ? "active nav-link nav_link" : "nav-link nav_link"} aria-current="page" href="/">
+                                    Home
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className={router.pathname == "/services" ? "active nav-link nav_link" : "nav-link nav_link"} href="/services">
+                                    Services
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className={router.pathname == "/aboutus" ? "active nav-link nav_link" : "nav-link nav_link"} href="/aboutus">
+                                    About US
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className={router.pathname == "/Portfolio" ? "active nav-link nav_link" : "nav-link nav_link"} href="/Portfolio">
+                                    Portfolio
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className={router.pathname == "/blog" ? "active nav-link nav_link" : "nav-link nav_link"} href="/blog">
+                                    Blog
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className={router.pathname == "/contactus" ? "active nav-link nav_link" : "nav-link nav_link"} href="/contactus">
+                                    Contact Us
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                 </div>
