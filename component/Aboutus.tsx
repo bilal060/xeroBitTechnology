@@ -23,8 +23,8 @@ const Aboutus = () => {
               </ul>
             </div>
             <div className="col-sm-12 col-md-5 col-lg-6">
-              <Image src={aboutusimagegroup} alt="aoutus-image" className='img-fluid aboutus-img' />
-              <Image src={aboutusimage} alt="aoutus-image" className='mx-auto img-fluid aboutus-img-2' />
+              <Image src={aboutusimagegroup} alt="aoutus-image" className='img-fluid aboutus-img d-md-block d-none' />
+              {/* <Image src={aboutusimage} alt="aoutus-image" className='mx-auto img-fluid aboutus-img-2 d-md-block d-none' /> */}
             </div>
           </div>
         </div>

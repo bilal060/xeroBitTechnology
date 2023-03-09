@@ -13,23 +13,23 @@ const Blog = () => {
                     <h2 className='font-weight-700 text-center pt-2'>read our latest blogs</h2>
                     <p className='font-16 text-center pt-4 pb-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan <br />  leo. Aliquam tempor orci sed ex facilisis vestibulum.</p>
                     <div className='row blog-cards pt-5'>
-                        <div className='co-sm-12 col-md-4 col-lg-4 blog-inner'>
-                            <Image src={blogimage1} alt="image-blog1" className='blogimg mt-2 mb-3 mx-auto d-block' />
-                            <h4 className='px-2  pt-2 pb-2 text_center_justification'>Lorem ipsum dolor sit amet</h4>
-                            <p className='px-2 text_center_justification'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.</p>
-                            <a href='' className='px-2'>Read Blog</a>
+                        <div className='col-md-6 col-lg-4 mb-4 blog-inner'>
+                            <Image src={blogimage1} alt="image-blog1" className='blogimg mt-2 mb-lg-4 mb-3 mx-auto d-block' />
+                            <h4 className='pb-lg-4 pb-3 m-0 text_center_justification'>Lorem ipsum dolor sit amet</h4>
+                            <p className='text_center_justification mb-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.</p>
+                            <a href='' className=''>Read Blog</a>
                         </div>
-                        <div className='co-sm-12 col-md-4 col-lg-4 blog-inner'>
-                            <Image src={blogimage2} alt="image-blog1" className='blogimg mt-2 mb-3 mx-auto d-block' />
-                            <h4 className='px-2  pt-2 pb-2 text_center_justification'>Lorem ipsum dolor sit amet</h4>
-                            <p className='px-2 text_center_justification'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.</p>
-                            <a href='' className='px-2'>Read Blog</a>
+                        <div className='col-md-6 col-lg-4 mb-4 blog-inner'>
+                            <Image src={blogimage2} alt="image-blog1" className='blogimg mt-2 mb-lg-4 mb-3 mx-auto d-block' />
+                            <h4 className='pb-lg-4 pb-3 m-0 text_center_justification'>Lorem ipsum dolor sit amet</h4>
+                            <p className='text_center_justification mb-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.</p>
+                            <a href='' className=''>Read Blog</a>
                         </div>
-                        <div className='co-sm-12 col-md-4 col-lg-4 blog-inner'>
-                            <Image src={blogimage3} alt="image-blog1" className='blogimg mt-2 mb-3 mx-auto d-block' />
-                            <h4 className='px-2 pt-2 pb-2 text_center_justification'>Lorem ipsum dolor sit amet</h4>
-                            <p className='px-2 text_center_justification'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.</p>
-                            <a href='' className='px-2'>Read Blog</a>
+                        <div className='col-md-6 col-lg-4 blog-inner'>
+                            <Image src={blogimage3} alt="image-blog1" className='blogimg mt-2 mb-lg-4 mb-3 mx-auto d-block' />
+                            <h4 className='pb-lg-4 pb-3 m-0 text_center_justification'>Lorem ipsum dolor sit amet</h4>
+                            <p className='text_center_justification mb-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.</p>
+                            <a href='' className=''>Read Blog</a>
                         </div>
                     </div>
                     <div className='d-flex justify-content-center pt-4 pb-4'>
