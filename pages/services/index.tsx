@@ -18,7 +18,7 @@ export default function Servicespage() {
                         <a href='' className='pagination-link'>Home</a>
                         <a href='' >Services</a>
                     </div>
-                    <h1>Our Services</h1>
+                    <h1 className='font-weight-700 font-56'>Our Services</h1>
                 </div>
             </header>
             <Services />
