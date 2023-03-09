@@ -10,21 +10,16 @@
 		border-radius: 16px;
 		padding: 31px 0 0 32px;
 	}
-    .text-center {
+    /* .text-center {
 		height: 100px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-	}
+	} */
     .aboutus, .ghraph-image, .choose-us, .testimonials, .xerobit-footer, .services-strategy, .services{
 		height: 100%;
 	}
-    .btn-center {
-		height: 150px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
+
     .project-idea {
 		height: 100%;
 		padding: 3%;
@@ -77,6 +72,9 @@
 		max-width: 14% !important;
 		height: auto;
 	}
+	.text-100{
+		width: 100% !important;
+	}
 }
 
 @media (max-width: 767.98px) {
@@ -101,5 +99,37 @@
 		right: 0;
 		max-width: 11% !important;
 		height: auto;
+	}
+	.content-center{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.text_center_justification{
+		text-align: center;
+	}
+	.btn-center {
+		height: 150px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.aboutus-img{
+		display: none;
+	}
+	.blogs .blog-cards .blog-inner a {
+		left: 33%;
+	}
+}
+
+@media (min-width: 767.99px){
+.aboutus-img-2{
+display: none;
+}
+}
+@media (min-width: 992px) {
+	.text-85{
+		width: 85% !important;
 	}
 }

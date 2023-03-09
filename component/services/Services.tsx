@@ -18,13 +18,13 @@ import SocialMedia from 'component/assets/images/social'
 const Services = () => {
     return (
         <>
-            <section className="container services">
-                <div className="services_typoghrapy">
-                    <h6 className='font-weight-500 text-center'>Our Services</h6>
-                    <h2 className='font-weight-700 text-center'>What we offer</h2>
-                    <p className='font-16 text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan
-                        <br /> leo. Aliquam tempor orci sed ex facilisis vestibulum.</p>
-                </div>
+            <section className="container services pb-5 mt-5">
+
+                <h6 className='font-weight-500 text-center pt-2 pb-2'>Our Services</h6>
+                <h2 className='font-weight-700 text-center pb-4'>What we offer</h2>
+                <p className='font-16 text-center pt-3 pb-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan
+                    <br /> leo. Aliquam tempor orci sed ex facilisis vestibulum.</p>
+
                 <div className="row spacing_page gy-5">
                     <div className="col-sm-12 col-md-6 col-lg-4">
                         <div className="services-cards">
@@ -87,7 +87,7 @@ const Services = () => {
                         </div>
                     </div>
                 </div>
-                <div className="text-center">
+                <div className='d-flex justify-content-center pt-4 pb-4'>
                     <AnimatedButton text='Learn More' />
                 </div>
             </section>

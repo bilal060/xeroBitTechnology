@@ -113,12 +113,12 @@ const Testimonial = () => {
                     type="text/css"
                     href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
                 />
-                <div className='container'>
+                <div className='container pt-5'>
                     <div className='tes-conent'>
-                        <h6 className='section-first-heading'>testimonials</h6>
-                        <h2 className='mb-4 mt-3 section-sub-heading text-dark'>what our clients say about us!</h2>
-                        <p className='pt-2 section-description'>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.
+                        <h6 className='section-first-heading font-weight-500 pt-2 pb-1'>testimonials</h6>
+                        <h2 className='mb-4 mt-3 section-sub-heading text-dark font-weight-700'>what our clients say about us!</h2>
+                        <p className='pt-4 font-16 text-center mx-auto '>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan <br /> leo. Aliquam tempor orci sed ex facilisis vestibulum.
                         </p>
                     </div>
                 </div>

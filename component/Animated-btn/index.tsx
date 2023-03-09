@@ -15,7 +15,7 @@ const AnimatedButton = (props: any) => {
                 </div>
                 <span className='btn_custome d-flex justify-content-center align-items-center'>{text}</span>
             </button>
-            
+
         </div>
     )
 }

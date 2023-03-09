@@ -88,7 +88,7 @@ select {
 	}
 }
 
-/* Font  */
+/* Fonts  */
 
 .font-weight-500{
     font-family: var(--ff-primary);
@@ -177,7 +177,7 @@ ul li .active::after {
 }
 
 hr {
-	width: 82%;
+	width: 85%;
 	margin: 20px auto;
 }
 
@@ -185,7 +185,6 @@ hr {
 	font-family: var(--ff-primary);
 	font-size: 3.5vw;
 	font-weight: 900;
-	/* line-height: 10vh; */
 	text-align: center;
 }
 
@@ -214,22 +213,13 @@ hr {
 	color: white;
 	background-color: var(--clr-primary);
 	height: 56px;
-	/* width: 163px; */
 	padding: 19px 30px;
 	border-radius: 8px;
 	border: none;
-	/* margin-top: 72px; */
+
 }
 
 /* services */
-
-.services {
-	height: 1163px;
-}
-
-/* .spacing_page {
-	margin-top: 72px;
-} */
 
 .services .services-cards {
 	width: 100%;
@@ -262,7 +252,6 @@ hr {
 .services .services-cards:hover svg path {
 	fill: white;
 }
-
 
 .services .services-cards h3,
 p {
@@ -297,24 +286,16 @@ p {
 	margin: 17px 37px 22px 0;
 }
 
-/* .text-center {
-	height: 212px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-} */
-
 /* about us */
 
 .aboutus {
-	height: 749px;
-	/* background: linear-gradient(180deg, #5390A5 0%, rgba(217, 217, 217, 0) 78.13%); */
-	background-color: rgba(83, 144, 165, 0.05);
-	padding: 80px 0 120px 0;
+	background: url(../assets/images/bgaboutus.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .btn-center {
-	height: 256px;
+	height: 150px;
 	display: flex;
 	align-items: center;
 }
@@ -342,50 +323,6 @@ p {
 	top: -13px;
 	left: -50px;
 	position: absolute;
-}
-
-/* ul.about-items{
-  list-style-image: url(../assets/images/tick.svg);
-} */
-
-.aboutus img {
-	border-radius: 12px;
-}
-
-.image-set {
-	position: relative;
-}
-
-.ghraph-image {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-}
-
-.image-set::before {
-	content: "";
-	z-index: -1;
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	background: linear-gradient(45deg, #5390A5 0%, rgba(217, 217, 217, 0) 78.13%);
-	filter: blur(200px);
-	transform: translate3d(0px, 20px, 0) scale(0.95);
-	opacity: var(0.7);
-	transition: opacity 0.4s;
-	border-radius: inherit;
-	-webkit-filter: blur(200px);
-	-webkit-transform: translate3d(0px, 20px, 0) scale(0.95);
-	-moz-transform: translate3d(0px, 20px, 0) scale(0.95);
-	-ms-transform: translate3d(0px, 20px, 0) scale(0.95);
-	-o-transform: translate3d(0px, 20px, 0) scale(0.95);
-	-webkit-transition: opacity 0.4s;
-	-moz-transition: opacity 0.4s;
-	-ms-transition: opacity 0.4s;
-	-o-transition: opacity 0.4s;
-	opacity: 0.6;
 }
 
 /* Project Idea */
@@ -442,42 +379,14 @@ p {
 	opacity: 0.7;
 }
 
-/* choosus */
-
-.choose-us {
-	height: 660px;
-}
-
-.choosus-icon-setting,
-.choosus-icon-plan {
-	display: none;
-}
-
-.choosus-img {
-	position: relative;
-}
-
-.choosus-icon-plan {
-	position: absolute;
-	right: 120px;
-	top: 60px;
-}
-
-.choosus-icon-setting {
-	position: absolute;
-	left: 160px;
-	bottom: -35px;
-}
-
 /* testimonials */
 
 .testimonials {
-	height: 735px;
 	background: rgba(83, 144, 165, 0.05);
 }
 
 
-.testimonials .tes-conent {
+/* .testimonials .tes-conent {
 	font-family: var(--ff-primary);
 	font-style: normal;
 	font-weight: 500;
@@ -488,7 +397,7 @@ p {
 	text-transform: uppercase;
 	color: #5390A5;
 	padding-top: 30px;
-}
+} */
 
 
 
@@ -527,14 +436,14 @@ p {
 	text-align: center;
 }
 
-.section-description {
+/* .section-description {
 	font-family: var(--ff-primary);
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 20px;
 	color: var(--clr-dark-gray);
-}
+} */
 
 .tes-slider {
 	height: 526px;
@@ -569,8 +478,6 @@ p {
 .tes-slider .slick-list {
 	height: 100%;
 }
-
-
 
 .slick-next,
 .slick-prev {
@@ -663,13 +570,13 @@ p {
 
 /* Blog */
 
-.blogs {
+/* .blogs {
 	height: 920px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-}
+} */
 
 .blogs .blog-cards .blogimg {
 	border-radius: 12px;
@@ -687,7 +594,6 @@ p {
 	line-height: 23px;
 	text-transform: capitalize;
 	color: #000000;
-	text-align: center;
 }
 
 .blogs .blog-cards .blog-inner a {
@@ -717,14 +623,10 @@ p {
 	color: #000000;
 }
 
-.blog-btn {
-	text-align: center;
-}
 
 /* Contact Us */
 
 .contactus {
-	height: 734px;
 	background-color: #5390A50D;
 	display: flex;
 	flex-direction: column;

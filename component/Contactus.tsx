@@ -6,17 +6,17 @@ import AnimatedButton from './Animated-btn'
 const Contactus = () => {
     return (
         <>
-            <section className='contactus'>
+            <section className='contactus pt-5 pb-5'>
                 <div className='container'>
                     <div className='row '>
-                        <div className='col-sm-12 col-md-6 col-lg-5'>
-                            <h6 className='font-weight-500'>  contact us </h6>
-                            <h2 className='font-weight-700 mt-2'>fill out this form to get started</h2>
+                        <div className='col-sm-12 col-md-6 col-lg-5 content-center'>
+                            <h6 className='font-weight-500 pb-3 text_center_justification'>  contact us </h6>
+                            <h2 className='font-weight-700 text_center_justification'>fill out this form to get started</h2>
                             <form
                                 method="POST"
                                 id="contactForm"
                                 name="contactForm"
-                                className="contactForm mt-5"
+                                className="contactForm mt-2"
                             >
                                 <div className="row gy-4">
                                     <div className="col-md-12 col-lg-6">
@@ -77,7 +77,7 @@ const Contactus = () => {
                                         </div>
                                     </div>
                                     <div className="col-md-12">
-                                        <div className="form-group mt-3 pb-3 form-btn">
+                                        <div className="btn-center">
                                             <AnimatedButton text='Send Message' />
                                         </div>
                                     </div>

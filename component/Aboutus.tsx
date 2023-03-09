@@ -1,18 +1,18 @@
 import React from 'react'
 import Image from 'next/image'
-import aboutusimage from '../assets/images/aboutus.png'
-import ghraphimage from '../assets/images/ghraphimage.png'
+import aboutusimagegroup from '../assets/images/aboutus.svg'
+import aboutusimage from '../assets/images/aboutus2.svg'
 import AnimatedButton from './Animated-btn'
 const Aboutus = () => {
   return (
     <>
-      <section className="aboutus">
+      <section className="aboutus pt-5 pb-5">
         <div className="container">
           <div className="row">
-            <div className="col-sm-8 col-md-7 col-lg-6">
-              <h6 className='font-weight-500'>About US</h6>
-              <h2 className='font-weight-700'>We&#39;re A Dynamic Team Of Software Developers.</h2>
-              <p className='font-16 '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum. Duis accumsan diam mauris, sit amet tristique felis rutrum nec. In accumsan sapien eu egestas ultricies.</p>
+            <div className="col-sm-12 col-md-7 col-lg-6 content-center">
+              <h6 className='font-weight-500 text_center_justification pt-2 pb-3'>About US</h6>
+              <h2 className='font-weight-700 text_center_justification pb-2'>We&#39;re A Dynamic Team Of Software Developers.</h2>
+              <p className='font-16 text_center_justification pt-3 pb-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum. Duis accumsan diam mauris, sit amet tristique felis rutrum nec. In accumsan sapien eu egestas ultricies.</p>
               <ul className='about-items'>
                 <li>Enim adminim veniam, quis nostrud tation</li>
                 <li>Enim adminim veniam, quis nostrud tation</li>
@@ -22,9 +22,9 @@ const Aboutus = () => {
                 </div>
               </ul>
             </div>
-            <div className="col-sm-4 col-md-5 col-lg-6 image-set">
-              <Image src={aboutusimage} alt="aoutus image" className='ms-auto img-fluid ' />
-              <Image src={ghraphimage} alt="" className='ghraph-image' />
+            <div className="col-sm-12 col-md-5 col-lg-6">
+              <Image src={aboutusimagegroup} alt="aoutus-image" className='img-fluid aboutus-img' />
+              <Image src={aboutusimage} alt="aoutus-image" className='mx-auto img-fluid aboutus-img-2' />
             </div>
           </div>
         </div>

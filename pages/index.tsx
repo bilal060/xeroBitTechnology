@@ -17,7 +17,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <>
-      <header className="header">
+      <header className="header pb-5">
         <Navbar />
         <hr className="mx-auto" />
         <div className="hero">
