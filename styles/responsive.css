@@ -40,10 +40,10 @@
 	.main-header .mainheader-hero h1::before {
 		content: " ";
 	}
-
+/*
 	.strategy-tabs {
 		padding-left: 1rem !important;
-	}
+	} */
 	ul li .nav_link{
 		text-align: center;
 		margin: 4px 0px;
@@ -74,6 +74,9 @@
 	}
 	.text-100{
 		width: 100% !important;
+	}
+	.disply_none{
+		display: none;
 	}
 }
 

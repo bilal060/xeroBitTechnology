@@ -980,7 +980,7 @@ select {
 	transform: translate(-50%, -50%);
 }
 
-.services-strategy h5 {
+/* .services-strategy h5 {
 	font-family: var(--ff-primary);
 	font-style: normal;
 	font-weight: 500;
@@ -989,15 +989,14 @@ select {
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
 	color: #5390A5;
-}
+} */
 
 .services-strategy {
 	background: rgba(83, 144, 165, 0.05);
-	height: 795px;
 }
 
 
-.services-strategy h3,
+/* .services-strategy h3,
 .uxui-design h3 {
 	font-family: var(--ff-primary);
 	font-style: normal;
@@ -1006,7 +1005,7 @@ select {
 	line-height: 46px;
 	text-transform: capitalize;
 	color: #000000;
-}
+} */
 
 .services-strategy .nav-tabs .nav_link {
 	font-family: var(--ff-primary);
@@ -1029,9 +1028,9 @@ select {
 	background: none !important;
 }
 
-.strategy-tabs {
+/* .strategy-tabs {
 	padding-left: 7rem !important;
-}
+} */
 
 /* .image_right_container .image-str{
   position:relative;
@@ -1500,3 +1499,13 @@ select {
 	transform: translate3d(0, 0, 0);
 	animation: btn-shake 1s cubic-bezier(.36, .07, .19, .97) both;
 }
+
+.services-strategy {
+	position: relative;
+  }
+
+  .image_right_container {
+	position: absolute;
+	top: 0;
+	right: 0;
+  }
