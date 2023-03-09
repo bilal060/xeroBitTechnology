@@ -84,7 +84,7 @@
 		width: 100% !important;
 	}
 
-	.disply_none {
+	.display_none {
 		display: none;
 	}
 
@@ -131,6 +131,15 @@
 		font-size: 48px !important;
 		line-height: 60px !important;
 	}
+	.px_35{
+		padding: 15px !important;
+	}
+	.text_center_justification-992 {
+		text-align: center;
+	}
+	.content-center-992 {
+		margin: 0 auto;
+	}
 }
 
 @media (max-width: 767.98px) {
@@ -141,7 +150,9 @@
 	.choosus-img {
 		display: none;
 	}
-
+	.display_none_767 {
+		display: none;
+	}
 	.choose-btn,
 	.choose-us h5,
 	.choose-us h2,

@@ -20,7 +20,7 @@ export default function Webdeveloment() {
                         <PaginationArrow />
                         <a href='' >Web & Mobile Development</a>
                     </div>
-                    <h1 className='font-weight-700 font-56 pt-2'>Web & Mobile Development</h1>
+                    <h1 className='font-weight-700 font-56 pt-2 text-center'>Web & Mobile Development</h1>
                 </div>
             </header>
             <Websolutions />
