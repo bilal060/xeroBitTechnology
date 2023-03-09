@@ -9,8 +9,8 @@ function Strategy() {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-md-12 col-lg-5 col-12 mt-5 strategy-tabs content-center'>
-                            <h6 className='font-weight-500'>Our strategy</h6>
-                            <h2 className='font-weight-700 mt-2 text_center_justification'>How Analytics Helping Face Challenges</h2>
+                            <h6 className='section-first-heading'>Our strategy</h6>
+                            <h2 className='section-sub-heading mt-2 text_center_justification'>How Analytics Helping Face Challenges</h2>
                             <nav className='mt-4'>
                                 <div className="nav nav-tabs" id="nav-tab" role="tablist">
                                     <button className="nav-link active nav_link" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Our Value</button>

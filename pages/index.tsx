@@ -19,7 +19,7 @@ export default function Home() {
     <>
       <header className="header pb-5">
         <Navbar />
-        <div className="hero font-family-primary">
+        <div className="hero font-family-primary container p-0">
           <h1 className="font-56 font-weight-900 text-center mb-32px">Were a Results Driven <br /> Software Development agency</h1>
           <p className='font-18 font-weight-400'>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed
             <br /> doeiusmod tempor incididunt ut labore et dolore magna aliqua.</p>

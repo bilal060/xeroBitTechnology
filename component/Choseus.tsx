@@ -12,13 +12,13 @@ const Choseus = () => {
                     </div>
                     <div className="col-sm-12 col-md-6 col-lg-6">
                         <div className='container'>
-                            <h6 className='font-weight-500 text_center_justification pb-3'>Why choose us</h6>
-                            <h2 className='font-weight-700 text-85 text-100 text_center_justification'>Software Development Company that helps you succeed.</h2>
-                            <p className='font-16 text-85 text-100 text_center_justification px-2 pt-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum. Duis accumsan diam mauris, sit amet tristique felis rutrum . In accumsan sapien eu egestas ultricies.</p>
+                            <h6 className='section-first-heading text_center_justification pb-3'>Why choose us</h6>
+                            <h2 className='section-sub-heading '>Software Development Company that helps you succeed.</h2>
+                            <p className='font-16 px-2 pt-4 text-black'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum. Duis accumsan diam mauris, sit amet tristique felis rutrum . In accumsan sapien eu egestas ultricies.</p>
                             <div className="btn-center">
                                 <AnimatedButton text='Get Started Today' />
                             </div>
-                       </div>
+                        </div>
                     </div>
                 </div>
             </section>

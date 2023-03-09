@@ -5,15 +5,17 @@ import Uxuidesign from 'component/component/ux-ui-design/Uxuidesign'
 import Uxuidetails from 'component/component/ux-ui-design/Uxuidetails'
 import Testimonial from 'component/component/Testimonial/Testimonial'
 import Footer from 'component/component/Footer'
+import Link from 'next/link'
+import PaginationArrow from 'component/assets/images/paginationArrow'
 export default function Uxuidesignpage() {
     return (
         <>
             <header className='main-header'>
                 <Navbar />
-                <hr className="mx-auto" />
                 <div className='mainheader-hero'>
                     <div className='pagination-hero'>
-                        <a href='' className='pagination-link'>Services</a>
+                        <Link href='/services' className='pagination-link'>Services</Link>
+                        <PaginationArrow />
                         <a href='' >UX/UI Design</a>
                     </div>
                     <h1>UX/UI Design</h1>

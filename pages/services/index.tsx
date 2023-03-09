@@ -8,6 +8,8 @@ import Contactus from 'component/component/Contactus'
 import Footer from 'component/component/Footer'
 import Steps from 'component/component/services/Steps'
 import Strategy from 'component/component/services/Strategy'
+import Link from 'next/link'
+import PaginationArrow from 'component/assets/images/paginationArrow'
 export default function Servicespage() {
     return (
         <>
@@ -15,7 +17,8 @@ export default function Servicespage() {
                 <Navbar />
                 <div className='mainheader-hero'>
                     <div className='pagination-hero'>
-                        <a href='' className='pagination-link'>Home</a>
+                        <Link href='/' className='pagination-link'>Home</Link>
+                        <PaginationArrow />
                         <a href='' >Services</a>
                     </div>
                     <h1>Our Services</h1>

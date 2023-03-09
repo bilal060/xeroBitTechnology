@@ -10,8 +10,8 @@ const Contactus = () => {
                 <div className='container'>
                     <div className='row '>
                         <div className='col-sm-12 col-md-6 col-lg-5 content-center'>
-                            <h6 className='font-weight-500 pb-3 text_center_justification'>  contact us </h6>
-                            <h2 className='font-weight-700 text_center_justification'>fill out this form to get started</h2>
+                            <h6 className='font-weight-500 section-first-heading  pb-2 text_center_justification'>  contact us </h6>
+                            <h2 className='font-weight-700 font-36-46 section-sub-heading mb-5 text-capital text_center_justification'>fill out this form to get started</h2>
                             <form
                                 method="POST"
                                 id="contactForm"
@@ -86,7 +86,7 @@ const Contactus = () => {
                             </form>
 
                         </div>
-                        <div className='col-sm-12 col-md-6 col-lg-7 d-md-block d-none'>
+                        <div className='col-sm-12 col-md-6 col-lg-7 d-md-flex d-none justify-content-center align-items-center'>
                             <Image src={contactusimage} alt="contactusimage" className='img-fluid contactus-image ms-auto rounded-4' />
                         </div>
                     </div>
