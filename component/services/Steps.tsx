@@ -7,8 +7,8 @@ function Steps() {
             <section className='services-process pt-5'>
                 <div className="container">
                     <div className="services_typoghrapy mb-5 pb-5">
-                        <h6 className='font-weight-500 text-center'>Our process</h6>
-                        <h2 className='font-weight-700 text-center'>Lorem ipsum dolor sit amet.</h2>
+                        <h6 className='section-first-heading text-center mb-3'>Our process</h6>
+                        <h2 className='section-sub-heading text-center mb-4'>Lorem ipsum dolor sit amet.</h2>
                         <p className='steps-discrptions'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan
                             <br /> leo. Aliquam tempor orci sed ex facilisis vestibulum.</p>
                     </div>

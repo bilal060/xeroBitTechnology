@@ -5,11 +5,11 @@ import AnimatedButton from '../Animated-btn'
 function Strategy() {
     return (
         <>
-            <section className='services-strategy pt-5 pb-5'>
+            <section className='services-strategy img-right-contianer-out pt-5 pb-5'>
                 <div className='container'>
                     <div className='row'>
                         <div className='col-md-12 col-lg-5 col-12 mt-5 strategy-tabs content-center'>
-                            <h6 className='font-weight-500 font-18-17'>Our strategy</h6>
+                            <h6 className='font-weight-500 font-18-17 text-xero-primary'>Our strategy</h6>
                             <h2 className='font-weight-700 font-36-46 mt-2 text_center_justification'>How Analytics Helping Face Challenges</h2>
                             <nav className='mt-4'>
                                 <div className="nav nav-tabs" id="nav-tab" role="tablist">

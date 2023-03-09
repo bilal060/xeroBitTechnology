@@ -10,9 +10,9 @@ const Aboutus = () => {
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-md-7 col-lg-6 content-center">
-              <h6 className='font-weight-500 text_center_justification pt-2 pb-3'>About US</h6>
-              <h2 className='font-weight-700 text_center_justification pb-2'>We&#39;re A Dynamic Team Of Software Developers.</h2>
-              <p className='font-16 text_center_justification pt-3 pb-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum. Duis accumsan diam mauris, sit amet tristique felis rutrum nec. In accumsan sapien eu egestas ultricies.</p>
+              <h6 className='section-first-heading   pt-2 pb-3'>About US</h6>
+              <h2 className='section-sub-heading font-36-46 pb-2'>We&#39;re A Dynamic Team Of Software Developers.</h2>
+              <p className='font-16 font-weight-400 text-dark-gray pt-3 pb-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum. Duis accumsan diam mauris, sit amet tristique felis rutrum nec. In accumsan sapien eu egestas ultricies.</p>
               <ul className='about-items'>
                 <li>Enim adminim veniam, quis nostrud tation</li>
                 <li>Enim adminim veniam, quis nostrud tation</li>

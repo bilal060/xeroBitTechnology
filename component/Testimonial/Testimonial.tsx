@@ -115,9 +115,9 @@ const Testimonial = () => {
                 />
                 <div className='container pt-5'>
                     <div className='tes-conent'>
-                        <h6 className='section-first-heading font-weight-500 pt-2 pb-1'>testimonials</h6>
-                        <h2 className='mb-4 mt-3 section-sub-heading text-dark font-weight-700'>what our clients say about us!</h2>
-                        <p className='pt-4 font-16 text-center mx-auto '>
+                        <h6 className='section-first-heading text-center font-weight-500 pt-2 pb-1'>testimonials</h6>
+                        <h2 className='mb-4 mt-3 section-sub-heading text-capital text-center text-black font-weight-700'>what our clients say about us!</h2>
+                        <p className='pt-4 font-16 text-dark-gray text-center mx-auto '>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan <br /> leo. Aliquam tempor orci sed ex facilisis vestibulum.
                         </p>
                     </div>
