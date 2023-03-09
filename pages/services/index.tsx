@@ -13,7 +13,6 @@ export default function Servicespage() {
         <>
             <header className='main-header'>
                 <Navbar />
-                <hr className="mx-auto" />
                 <div className='mainheader-hero'>
                     <div className='pagination-hero'>
                         <a href='' className='pagination-link'>Home</a>
@@ -26,7 +25,7 @@ export default function Servicespage() {
             <Projectidea />
             <Strategy />
             <Steps />
-            {/* <Testimonial /> */}
+            <Testimonial />
             <Blog />
             <Contactus />
             <Footer />

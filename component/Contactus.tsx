@@ -86,7 +86,7 @@ const Contactus = () => {
                             </form>
 
                         </div>
-                        <div className='col-sm-12 col-md-6 col-lg-7'>
+                        <div className='col-sm-12 col-md-6 col-lg-7 d-md-block d-none'>
                             <Image src={contactusimage} alt="contactusimage" className='img-fluid contactus-image ms-auto rounded-4' />
                         </div>
                     </div>
