@@ -15,9 +15,9 @@ const Contactusicons = () => {
                             <div className='big-icon'>
                                 <Image src={callicon} alt="call" className='img-fluid' />
                             </div>
-                            <div className='text-icons'>
-                                <h3 className='font-weight-700 font-24-100 text_center_justification text-md_center pt-3'>Phone Number</h3>
-                                <p className='font-weight-400 font-16-100 text-dark-gray text_center_justification text-md_center pt-2'>+1 234 56789</p>
+                            <div className='text-icons align-items-center'>
+                                <h3 className='font-weight-700 font-24-100 text_center_justification text-md_center '>Phone Number</h3>
+                                <p className='font-weight-400 font-16-100 text-dark-gray text_center_justification text-md_center m-0 pt-2'>+1 234 56789</p>
                             </div>
                         </div>
                     </div>
@@ -26,9 +26,9 @@ const Contactusicons = () => {
                             <div className='big-icon'>
                                 <Image src={emailicon} alt="call" className='img-fluid' />
                             </div>
-                            <div className='text-icons'>
-                                <h3 className='font-weight-700 font-24-100 text_center_justification text-md_center pt-3'>Mail</h3>
-                                <p className='font-weight-400 font-16-100 text-dark-gray text_center_justification text-md_center pt-2'>yourmail@mail.com</p>
+                            <div className='text-icons align-items-center'>
+                                <h3 className='font-weight-700 font-24-100 text_center_justification text-md_center '>Mail</h3>
+                                <p className='font-weight-400 font-16-100 text-dark-gray text_center_justification text-md_center m-0 pt-2'>yourmail@mail.com</p>
                             </div>
                         </div>
                     </div>
@@ -37,9 +37,9 @@ const Contactusicons = () => {
                             <div className='big-icon'>
                                 <Image src={locationicon} alt="call" className='img-fluid' />
                             </div>
-                            <div className='text-icons'>
-                                <h3 className='font-weight-700 font-24-100 text_center_justification text-md_center pt-3'>Address</h3>
-                                <p className='font-weight-400 font-16-100 text-dark-gray text_center_justification text-md_center pt-2'>Your address goes here</p>
+                            <div className='text-icons align-items-center'>
+                                <h3 className='font-weight-700 font-24-100 text_center_justification text-md_center '>Address</h3>
+                                <p className='font-weight-400 font-16-100 text-dark-gray text_center_justification text-md_center m-0 pt-2'>Your address goes here</p>
                             </div>
                         </div>
                     </div>
