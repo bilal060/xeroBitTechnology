@@ -5,6 +5,8 @@ import Image from 'next/image'
 import logo from '../assets/images/logo.png'
 import next from 'next'
 const Navbar = () => {
+    const homepage = ['/dashboard']
+
     const router = useRouter();
     return (
         <>
@@ -22,7 +24,7 @@ const Navbar = () => {
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link className={router.pathname == "/services" ? "active nav-link nav_link" : "nav-link nav_link"} href="/services">
+                                <Link className={router.pathname.includes("/services") ? "active nav-link nav_link" : "nav-link nav_link"} href="/services">
                                     Services
                                 </Link>
                             </li>

@@ -131,18 +131,29 @@
 		font-size: 48px !important;
 		line-height: 60px !important;
 	}
-	.px_35{
+
+	.px_35 {
 		padding: 15px !important;
 	}
+
 	.text_center_justification-992 {
 		text-align: center;
 	}
+
 	.content-center-992 {
 		margin: 0 auto;
+	}
+
+	.services-process .steps-icon {
+		gap: 16px;
 	}
 }
 
 @media (max-width: 767.98px) {
+	.step-bar::after {
+		width: 60%;
+	}
+
 	.xerobit-footer .footer-heading {
 		margin: 15px 0;
 	}
@@ -150,9 +161,11 @@
 	.choosus-img {
 		display: none;
 	}
+
 	.display_none_767 {
 		display: none;
 	}
+
 	.choose-btn,
 	.choose-us h5,
 	.choose-us h2,

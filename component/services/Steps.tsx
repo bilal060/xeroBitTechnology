@@ -6,14 +6,14 @@ function Steps() {
         <>
             <section className='services-process pt-5'>
                 <div className="container">
-                    <div className="services_typoghrapy mb-5 pb-5">
+                    <div className="services_typoghrapy mb-5 pb-md-5">
                         <h6 className='section-first-heading text-center mb-3'>Our process</h6>
                         <h2 className='section-sub-heading text-center mb-4'>Lorem ipsum dolor sit amet.</h2>
                         <p className='steps-discrptions'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan
                             <br /> leo. Aliquam tempor orci sed ex facilisis vestibulum.</p>
                     </div>
-                    <div className="row mt-5 g-0">
-                        <div className="col-md-2 offset-md-1">
+                    <div className="row mt-5 steps-row g-0">
+                        <div className="col-md-2 ">
                             <div className="step-icon">
                                 <Image src={stepsison} alt="step-1" className='mx-auto' />
                             </div>
