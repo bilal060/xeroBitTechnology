@@ -6,6 +6,7 @@ import Footer from 'component/component/Footer'
 import Choseus from 'component/component/Choseus'
 import Link from 'next/link'
 import PaginationArrow from 'component/assets/images/paginationArrow'
+import DynamicTeam from 'component/component/softwareDevelopment/dynamicTeam'
 export default function Webdeveloment() {
     return (
         <>
@@ -17,10 +18,10 @@ export default function Webdeveloment() {
                         <PaginationArrow />
                         <a href='' >Software Development</a>
                     </div>
-                    <h1>Software Development</h1>
+                    <h1 className='font-weight-700 font-56 pt-2'>Software Development</h1>
                 </div>
             </header>
-            <h1 className='text-center'>other componets in progresss......</h1>
+            <DynamicTeam />
             <Projectidea />
             <Choseus />
             <Testimonial />

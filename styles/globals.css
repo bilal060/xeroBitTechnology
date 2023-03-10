@@ -73,6 +73,10 @@ select {
 	font: inherit;
 }
 
+.form-control:focus {
+	box-shadow: none !important;
+}
+
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
 	html:focus-within {
@@ -463,6 +467,11 @@ p {
 	list-style: none;
 }
 
+.about-items {
+	position: relative;
+	padding-left: 43px;
+}
+
 .aboutus ul li::before,
 .services-strategy ul li::before,
 .dynamic-team ul li::before,
@@ -510,6 +519,7 @@ p {
 
 .testimonials {
 	background: rgba(83, 144, 165, 0.05);
+	padding: 0 !important;
 }
 
 .section-first-heading {
@@ -729,6 +739,8 @@ select {
 
 .xerobit-footer ul li {
 	list-style: none;
+	display: flex;
+	align-items: center;
 }
 
 .xerobit-footer ul li a {
@@ -746,7 +758,7 @@ select {
 	font-family: var(--ff-primary);
 	font-style: normal;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 40px;
 	color: #b5b5b5;
 }
@@ -988,10 +1000,14 @@ select {
 	background: rgba(83, 144, 165, 0.05);
 }
 
+/* uxui-design */
+.uxui-design {
+	position: relative;
+}
+
 /* About Us page */
 .dynamic-team h2,
-.aboutusdetails h2,
-.uxuidetails h2 {
+.aboutusdetails h2 {
 	font-family: var(--ff-primary);
 	font-style: normal;
 	font-weight: 700;
@@ -1146,7 +1162,7 @@ select {
 }
 
 .web-development-slick-card {
-	width: 404px;
+	width: 100%;
 	height: 588px;
 	background: rgba(83, 144, 165, 0.15);
 }
@@ -1156,7 +1172,7 @@ select {
 }
 
 .protofolio-slider .slick-slide {
-	width: 404px !important;
+	width: 100% !important;
 }
 
 .protofolio-slider .slick-slider .slick-list .slick-track {
@@ -1275,8 +1291,20 @@ select {
 
 .image_right_container {
 	position: absolute;
-	top: 0;
+	top: 10%;
 	right: 0;
+}
+
+.image_left_container {
+	position: absolute;
+	top: 10%;
+	left: 0;
+}
+
+.choosus-img {
+	position: absolute;
+	top: 50;
+	left: 0;
 }
 
 .services-strategy .nav-tabs .nav-link,

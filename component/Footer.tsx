@@ -5,6 +5,7 @@ import fbicon from '../assets/images/facebook.svg'
 import linkicon from '../assets/images/linkedin.svg'
 import instaicon from '../assets/images/insta.svg'
 import twicon from '../assets/images/twit.svg'
+import Link from 'next/link'
 const Footer = () => {
     return (
         <>
@@ -35,7 +36,7 @@ const Footer = () => {
                             <h6 className="footer-heading">Services</h6>
                             <ul>
                                 <li><a href='' >Digital Strategy</a></li>
-                                <li><a href='' >UX Design</a></li>
+                                <li><Link href='/services/uxuidesign' >UX Design</Link></li>
                                 <li><a href='' >Product Design</a></li>
                                 <li><a href='' >Content Strategy</a></li>
                                 <li><a href='' >Design & Concept</a></li>
@@ -45,11 +46,11 @@ const Footer = () => {
                         <div className="col-md-3 col-lg-2 col-sm-6 mt-3 ps-0">
                             <h6 className="footer-heading">Quick Links</h6>
                             <ul>
-                                <li><a href='' >Services</a></li>
-                                <li><a href='' >About Us</a></li>
+                                <li><Link href='/services' >Services</Link></li>
+                                <li><a href='/aboutus' >About Us</a></li>
                                 <li><a href='' >Testimonials</a></li>
-                                <li><a href='' >Blog</a></li>
-                                <li><a href='' >Contact</a></li>
+                                <li><a href='/blog' >Blog</a></li>
+                                <li><a href='/contactus' >Contact</a></li>
                             </ul>
                         </div>
                         <div className="col-md-12 col-lg-3 col-sm-12 mt-3 ps-0">
