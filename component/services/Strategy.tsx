@@ -54,7 +54,7 @@ function Strategy() {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-md-6 col-lg-7 g-0 image_right_containe-1 display_none'>
+                        <div className='col-md-6 col-lg-7 g-0 image_right_container-1 display_none'>
                             <Image src={strategyimage} alt="strategyimage" className='img-fluid float-end' />
                         </div>
                     </div>

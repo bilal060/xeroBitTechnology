@@ -1,3 +1,10 @@
+@media (max-width: 1350px) {
+	.image_right_container {
+		position: absolute;
+		top:16% !important;
+		right: 0;
+	}
+}
 @media (max-width: 992px) {
 	.header {
 		height: 100%;
@@ -11,7 +18,6 @@
 		border-radius: 16px;
 		padding: 31px 0 0 32px;
 	}
-
 	.aboutus,
 	.ghraph-image,
 	.choose-us,
@@ -147,13 +153,17 @@
 	.services-process .steps-icon {
 		gap: 16px;
 	}
+	.image_right_container {
+		position: absolute;
+		top:28% !important;
+		right: 0;
+	}
 }
 
 @media (max-width: 767.98px) {
 	.step-bar::after {
 		width: 60%;
 	}
-
 	.xerobit-footer .footer-heading {
 		margin: 15px 0;
 	}
