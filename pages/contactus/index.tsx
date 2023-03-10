@@ -17,7 +17,7 @@ export default function Contactuspage() {
                         <PaginationArrow />
                         <a href='' >Contact Us</a>
                     </div>
-                    <h1>Contact Us</h1>
+                    <h1 className='font-weight-700 font-56 pt-2'>Contact Us</h1>
                 </div>
             </header>
             < Contactusicons />

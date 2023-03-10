@@ -18,7 +18,7 @@ export default function Aboutuspage() {
                         <PaginationArrow />
                         <a href='' >About Us</a>
                     </div>
-                    <h1>About Us</h1>
+                    <h1 className='font-weight-700 font-56 pt-2'>About Us</h1>
                 </div>
             </header>
             <Dynamicteam />
