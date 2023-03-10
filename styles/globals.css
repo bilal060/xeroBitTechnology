@@ -462,6 +462,23 @@ p {
 }
 
 /* about us */
+.aboutus_support .custom-accordian-btn {
+	font-weight: 700 !important;
+	font-size: 18px !important;
+	line-height: 24px !important;
+	padding: 27px 0 !important;
+	border: 0 !important;
+	gap: 16px;
+}
+.accordion-item,.accordion-header{
+	border: 0;
+}
+.aboutus_support .accordion-body {
+	padding: 0 0 27px 0 !important;
+}
+.accordion-item:last-child{
+	box-shadow: none;
+}
 
 .aboutus {
 	background: url(../assets/images/bgaboutus.png);
@@ -885,6 +902,7 @@ select {
 	text-align: center;
 	color: #5390a5;
 }
+
 .contact-icons {
 	display: flex;
 	flex-direction: row;
@@ -1345,6 +1363,7 @@ select {
 	bottom: -14px;
 	left: 0px;
 }
+
 .accordion {
 	box-shadow: none !important;
     border: none !important;
@@ -1355,23 +1374,27 @@ select {
 	padding-bottom: 5px !important;
 } */
 
-.accordion-button:focus{
+.accordion-button:focus {
 	outline: none !important;
 	box-shadow: none !important;
 }
-.accordion-button.active:focus{
+
+.accordion-button.active:focus {
 	outline: none !important;
 }
+
 .accordion-item:first-of-type .accordion-button {
-    border-top-left-radius: 0px !important;
-    border-top-right-radius: 0px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
 }
+
 .accordion-button:not(.collapsed) {
-    color: none !important;
-    background-color: none !important;
-    box-shadow: none !important;
+	color: none !important;
+	background-color: none !important;
+	box-shadow: none !important;
 }
-.accordion-item{
+
+.accordion-item {
 	border-radius: 0px !important;
 	-webkit-border-radius: 0px !important;
 	-moz-border-radius: 0px !important;
