@@ -51,7 +51,7 @@ const Portfolioslider = () => {
         dots: false,
         arrows: false,
         infinite: true,
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         initialSlide: 0,
         autoplay: true,
@@ -62,14 +62,14 @@ const Portfolioslider = () => {
             {
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 3,
                     slidesToScroll: 1,
                 }
             },
             {
                 breakpoint: 600,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                     slidesToScroll: 1,
                 }
             },
@@ -87,7 +87,7 @@ const Portfolioslider = () => {
 
     return (
         <>
-            <div className='testimonials'>
+            <div>
                 <link
                     rel="stylesheet"
                     type="text/css"
@@ -108,7 +108,7 @@ const Portfolioslider = () => {
                                         <div className='p-32px pb-0'>
                                             <h4 className='font-18 font-weight-700 mb-3'>{data.name}</h4>
                                             <p className='font-14 font-weight-400 mb-3'>{data.comments}</p>
-                                            <a href='' className='mb-5 d-flex gap-6px text-black font-14 font-weight-700 text-center align-items-center'><span className='pb-1'>View Project</span>
+                                            <a href='' className='mb-4 d-flex gap-6px text-black font-14 font-weight-700 text-center align-items-center'><span className='pb-1'>View Project</span>
                                                 <BlogArrow />
                                             </a>
                                         </div>

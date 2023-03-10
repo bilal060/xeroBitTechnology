@@ -1,12 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
-import uxuiimage from "../../assets/images/uxuidesign.png"
-import AnimatedButton from '../Animated-btn'
+import rightimage from '../../../assets/images/strategy.png'
+import AnimatedButton from 'component/component/Animated-btn'
 
-const Uxuidesign = () => {
+const DynamicTeam = () => {
     return (
         <>
-            <section className='uxui-design pt-5'>
+            <section className='uxui-design py-5 mb-5'>
                 <div className='container  g-0'>
                     <div className='row m-0'>
                         <div className='col-md-6 col-lg-5 mt-5 strategy-tabs text_center_justification'>
@@ -22,13 +22,14 @@ const Uxuidesign = () => {
                             </div>
                         </div>
                         <div className='col-md-6 col-lg-7 g-0 image_right_container d-md-block d-none'>
-                            <Image src={uxuiimage} alt="image" className='img-fluid float-end' />
+                            <Image src={rightimage} alt="image" className='img-fluid float-end' />
                         </div>
                     </div>
                 </div>
             </section >
+
         </>
     )
 }
 
-export default Uxuidesign
+export default DynamicTeam

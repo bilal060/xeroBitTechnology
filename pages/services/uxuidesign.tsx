@@ -18,7 +18,7 @@ export default function Uxuidesignpage() {
                         <PaginationArrow />
                         <a href='' >UX/UI Design</a>
                     </div>
-                    <h1>UX/UI Design</h1>
+                    <h1 className='font-weight-700 font-56 pt-2'>UX/UI Design</h1>
                 </div>
             </header>
             <Uxuidesign />

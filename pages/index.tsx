@@ -21,8 +21,10 @@ export default function Home() {
         <Navbar />
         <div className="hero font-family-primary container p-0">
           <h1 className="font-56 font-weight-900 text-center mb-32px">Were a Results Driven <br /> Software Development agency</h1>
-          <p className='font-18 font-weight-400'>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed
-            <br /> doeiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p className='font-18 font-weight-400 w-50'>
+            Our expert team provides comprehensive services in digital strategy, UX design, content strategy, website design, and social media management.
+            Experience superior results with our customized solutions. Contact us today!
+          </p>
           <AnimatedButton text='Learn More' />
         </div>
         <Image src={rightimage} alt="" className='hero-rightimage' />

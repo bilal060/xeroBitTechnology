@@ -1,13 +1,21 @@
 @media (max-width: 1350px) {
 	.image_right_container {
 		position: absolute;
-		top:16% !important;
+		top: 16% !important;
 		right: 0;
 	}
 	.px_45_40 {
 		padding: 15px 15px !important;
+
+	.image_left_container {
+		top: 50 !important;
+	}
+
+	.choosus-img {
+		top: 50 !important;
 	}
 }
+
 @media (max-width: 992px) {
 	.header {
 		height: 100%;
@@ -21,6 +29,7 @@
 		border-radius: 16px;
 		padding: 31px 0 0 32px;
 	}
+
 	.aboutus,
 	.ghraph-image,
 	.choose-us,
@@ -156,9 +165,10 @@
 	.services-process .steps-icon {
 		gap: 16px;
 	}
+
 	.image_right_container {
 		position: absolute;
-		top:28% !important;
+		top: 28% !important;
 		right: 0;
 	}
 	.gap-43px{
@@ -172,13 +182,24 @@
 	}
 	.text-md_center{
 		text-align: center !important;
+
+	.image_left_container {
+		top: 28% !important;
+	}
+
+	.choosus-img {
+		top: 28% !important;
 	}
 }
 
 @media (max-width: 767.98px) {
+	.choose-us ul li{
+		gap: 0;
+	}
 	.step-bar::after {
 		width: 60%;
 	}
+
 	.xerobit-footer .footer-heading {
 		margin: 15px 0;
 	}
