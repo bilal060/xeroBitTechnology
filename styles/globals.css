@@ -1347,6 +1347,7 @@ select {
 }
 .accordion {
 	box-shadow: none !important;
+    border: none !important;
 }
 
 /* .accordion-button{
