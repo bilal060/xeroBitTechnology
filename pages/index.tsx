@@ -20,18 +20,17 @@ export default function Home() {
       <header className="header pb-5">
         <Navbar />
         <div className="hero font-family-primary container p-0">
-          <h1 className="font-56 font-weight-900 text-center mb-32px">Were a Results Driven <br /> Software Development agency</h1>
-          <p className='font-18 font-weight-400 w-50'>
-            Our expert team provides comprehensive services in digital strategy, UX design, content strategy, website design, and social media management.
-            Experience superior results with our customized solutions. Contact us today!
+          <h1 className="font-56 font-weight-900 text-center mb-32px">Empowering Your Digital <br/> Dreams</h1>
+          <p className='font-18 font-weight-400 w-50 m-0'>
+            Empowering businesses to achieve their full potential through our up to date technology and design.
           </p>
-          <AnimatedButton text='Learn More' />
+          <AnimatedButton hrefto="aboutus" light={true} text='Learn More' />
         </div>
         <Image src={rightimage} alt="animated-image" className='hero-rightimage' />
       </header>
       <Services />
       <Aboutus />
-      <Projectidea />
+      <Projectidea light={true} />
       <Choseus />
       <Testimonial />
       <Blog />

@@ -27,7 +27,7 @@ export default function Webdeveloment() {
             <Webcustomization />
             <Buildingsolutions />
             <Technologie />
-            <Projectidea />
+            <Projectidea light={true} />
             <Portfolioslider />
             <Footer />
         </>

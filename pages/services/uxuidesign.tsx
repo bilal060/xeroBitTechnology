@@ -22,7 +22,7 @@ export default function Uxuidesignpage() {
                 </div>
             </header>
             <Uxuidesign />
-            <Projectidea />
+            <Projectidea light={true} />
             <Uxuidetails />
             <Testimonial />
             <Footer />

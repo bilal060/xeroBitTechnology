@@ -18,7 +18,7 @@ const Uxuidesign = () => {
                                 <li>Enim adminim veniam, quis nostrud tation</li>
                             </ul>
                             <div className="btn-center">
-                                <AnimatedButton text="Get Started Today" />
+                                <AnimatedButton light={true} text="Get Started Today" />
                             </div>
                         </div>
                         <div className='col-md-6 col-lg-7 g-0 image_right_container d-md-block d-none'>

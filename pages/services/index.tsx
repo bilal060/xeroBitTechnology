@@ -25,7 +25,7 @@ export default function Servicespage() {
                 </div>
             </header>
             <Services />
-            <Projectidea />
+            <Projectidea light={true} />
             <Strategy />
             <Steps />
             <Testimonial />

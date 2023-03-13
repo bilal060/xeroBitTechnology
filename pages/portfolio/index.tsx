@@ -1,29 +1,29 @@
-import Head from 'next/head'
 import Navbar from 'component/component/Navbar'
 import Projectidea from 'component/component/Projectidea'
-import Contactus from 'component/component/Contactus'
 import Footer from 'component/component/Footer'
 import Link from 'next/link'
 import PaginationArrow from 'component/assets/images/paginationArrow'
-const Portfolio = () => {
+import PortofolioContent from './portofolioContent'
+export default function Contactuspage() {
   return (
     <>
-      <header className='main-header'>
-        <Navbar />
-        <div className='mainheader-hero'>
-          <div className='pagination-hero'>
-            <Link href='/' className='pagination-link'>Home</Link>
-            <PaginationArrow />
-            <a href='' >Portfolio</a>
+      <div className='portofolio'>
+        <header className='main-header'>
+          <Navbar />
+          <div className='mainheader-hero'>
+            <div className='pagination-hero'>
+              <Link href='/' className='pagination-link'>Home</Link>
+              <PaginationArrow />
+              <a href='' >Portfolio</a>
+            </div>
+            <h1 className='font-weight-700 font-56 pt-2'>Our Portfolio</h1>
           </div>
-          <h1 className='font-weight-700 font-56 pt-2'>Portfolio</h1>
-        </div>
-      </header>
-      <Projectidea />
-      <Contactus />
-      <Footer />
+        </header>
+        <PortofolioContent />
+        <Projectidea light={false} />
+        <Footer />
+      </div>
     </>
+
   )
 }
-
-export default Portfolio
