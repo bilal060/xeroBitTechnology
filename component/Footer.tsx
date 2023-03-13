@@ -16,8 +16,8 @@ const Footer = () => {
                             <a className="navbar-brand" href="#">
                                 <Image src={logo} alt="footer-logo" className='img-fluid footer-logo' />
                             </a>
-                            <p>At Xero Bit Technology, we pride ourselves on delivering exceptional results for our clients. Over the years, we have worked with businesses of all sizes, across various industries, and helped them achieve their digital goals. Our portfolio of success stories includes numerous satisfied clients who have benefited from our expertise in digital strategy, UX design, product design, content strategy, website design, and social media management.
-                            </p>
+                            <p>
+                                Get to know Xero But Technology and our expert team. Discover our passion for IT and how we deliver exceptional services. Contact us to learn more.                            </p>
                             <div className="row">
                                 <div className='col-2'>
                                     <a href=''><Image src={fbicon} alt="fbicons" className='fb-icon' /></a>

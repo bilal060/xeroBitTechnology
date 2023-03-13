@@ -13,9 +13,9 @@ function Aboutusdetail() {
                             <Image src={aboutusdetails} alt="aboutdetail-image" className='mx-auto img-fluid align-middle' />
                         </div>
                         <div className='col-md-6 col-lg-6 col-sm-12'>
-                            <h2 className='section-sub-heading font-36-46 text_center_justification pb-2'>Aliquam ultricies, arcu vel
-                                varius consequat</h2>
-                            <p className='font-16 font-weight-400 text-dark-gray text_center_justification pt-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam diam felis, mollis a varius sed, vulputate et orci. Donec lobortis ultrices tellus, vitae blandit ex molestie in. Mauris venenatis iaculis mauris ac hendrerit. Morbi convallis, neque ut pulvinar tempor, tellus diam bibendum enim, nec vehicula sem lacus eget nulla. Ut lacinia nisi dui, nec ornare augue scelerisque a. Nulla facilisi. Maecenas vel odio turpis. Nullam iaculis nunc quam, et lobortis tortor venenatis a. Pellentesque rhoncus lectus vitae est maximus suscipit. Maecenas sit amet nisi nec sapien pretium pellentesque et in ante. Aenean nisl velit, malesuada in mauris eget, pharetra commodo tellus.</p>
+                            <h2 className='section-sub-heading font-36-46 text_center_justification pb-2'>Our Mission And Vision </h2>
+                            <p className='font-16 font-weight-400 text-dark-gray text_center_justification pt-3'>At Xero Bit Technology, our mission is to transform the digital landscape through innovative solutions that empower businesses to thrive in the modern world. We are committed to delivering high-quality, customized services that drive growth, improve user experiences, and create lasting value for our clients.</p>
+                            <p className='font-16 font-weight-400 text-dark-gray text_center_justification'>Our vision is to be a trusted partner for businesses seeking to harness the full potential of technology. We aim to become a leading provider of digital services that enable organizations to achieve their goals with speed, efficiency, and agility. By staying ahead of the curve and embracing emerging trends, we strive to make a positive impact on the world and contribute to a better future for all.</p>
                             <div className="btn-center">
                                 <AnimatedButton light={true} text='Get Started Today' />
                             </div>

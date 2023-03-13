@@ -18,7 +18,10 @@ export default function Aboutuspage() {
                         <PaginationArrow />
                         <a href='' >About Us</a>
                     </div>
-                    <h1 className='font-weight-700 font-56 pt-2'>About Us</h1>
+                    <h1 className='font-weight-700 font-56 pt-2 mb-32px'>About Us</h1>
+                    <p className='font-18 font-weight-400 w-50 m-0 text-center'>
+                        Get to know Xero But Technology and our expert team. Discover our passion for IT and how we deliver exceptional services. Contact us to learn more.
+                    </p>
                 </div>
             </header>
             <Dynamicteam />

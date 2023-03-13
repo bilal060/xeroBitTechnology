@@ -19,17 +19,20 @@ const Services = () => {
 
                 <div className="row spacing_page gy-5">
                     <div className="col-sm-12 col-md-6 col-lg-4">
-                        <div className="services-cards">
-                            <Digital />
-                            <h3 className='font-24 font-weight-700 text-dark-gray'>Digital Strategy</h3>
-                            <p className='font-16 font-weight-400 opacity-06'>We can work with you to create a comprehensive digital strategy that aligns with your business goals and maximizes ROI.</p>
+                        <div className="services-cards d-flex flex-column justify-content-between">
+                            <div>
+                                <Digital />
+                                <h3 className='font-24 font-weight-700 text-dark-gray'>Digital Strategy</h3>
+                                <p className='font-16 font-weight-400 opacity-06'>We can work with you to create a comprehensive digital strategy that aligns with your business goals and maximizes ROI.</p>
+                           </div>
+                           
                             <a href='' className="d-flex justify-content-end">
                                 <Image src={arrow} alt="arrow" />
                             </a>
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-6 col-lg-4">
-                        <div className="services-cards">
+                        <div className="services-cards d-flex flex-column justify-content-between">
                             <Ux />
                             <h3 className='font-24 font-weight-700 text-dark-gray'>UX Design</h3>
                             <p className='font-16 font-weight-400 opacity-06'>Our talented designers can create engaging user experiences and intuitive interfaces that bring your digital products to life.</p>
@@ -39,40 +42,48 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-6 col-lg-4">
-                        <div className="services-cards">
-                            <ProductDesign />
-                            <h3 className='font-24 font-weight-700 text-dark-gray'>Product Design</h3>
-                            <p className='font-16 font-weight-400 opacity-06'>Our experienced team of developers can help turn your product idea into a reality, from concept to launch.</p>
+                        <div className="services-cards d-flex flex-column justify-content-between">
+                            <div>
+                                <ProductDesign />
+                                <h3 className='font-24 font-weight-700 text-dark-gray'>Product Design</h3>
+                                <p className='font-16 font-weight-400 opacity-06'>Our experienced team of developers can help turn your product idea into a reality, from concept to launch.</p>
+                            </div>
                             <a href='' className="d-flex justify-content-end">
                                 <Image src={arrow} alt="arrow" />
                             </a>
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-6 col-lg-4">
-                        <div className="services-cards">
-                            <ContentStrategy />
-                            <h3 className='font-24 font-weight-700 text-dark-gray'>Content Strategy</h3>
-                            <p className='font-16 font-weight-400 opacity-06'>We specialize in creating effective content strategies that help you connect with your audience and grow your brand.</p>
+                        <div className="services-cards d-flex flex-column justify-content-between">
+                            <div>
+                                <ContentStrategy />
+                                <h3 className='font-24 font-weight-700 text-dark-gray'>Content Strategy</h3>
+                                <p className='font-16 font-weight-400 opacity-06'>We specialize in creating effective content strategies that help you connect with your audience and grow your brand.</p>
+                            </div>
                             <a href='' className="d-flex justify-content-end">
                                 <Image src={arrow} alt="arrow" />
                             </a>
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-6 col-lg-4">
-                        <div className="services-cards">
-                            <DesignConcept />
-                            <h3 className='font-24 font-weight-700 text-dark-gray'>Design & Concept</h3>
-                            <p className='font-16 font-weight-400 opacity-06'>We offer professional and modern web design services that are tailored to your business needs, with a focus on user experience.</p>
+                        <div className="services-cards d-flex flex-column justify-content-between">
+                            <div>
+                                <DesignConcept />
+                                <h3 className='font-24 font-weight-700 text-dark-gray'>Design & Concept</h3>
+                                <p className='font-16 font-weight-400 opacity-06'>We offer professional and modern web design services that are tailored to your business needs, with a focus on user experience.</p>
+                            </div>
                             <a href='' className="d-flex justify-content-end">
                                 <Image src={arrow} alt="arrow" />
                             </a>
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-6 col-lg-4">
-                        <div className="services-cards">
-                            <SocialMedia />
-                            <h3 className='font-24 font-weight-700 text-dark-gray'>Social Media</h3>
-                            <p className='font-16 font-weight-400 opacity-06'>Let us handle your social media presence, from strategy to execution, so you can focus on running your business.</p>
+                        <div className="services-cards d-flex flex-column justify-content-between">
+                            <div>
+                                <SocialMedia />
+                                <h3 className='font-24 font-weight-700 text-dark-gray'>Social Media</h3>
+                                <p className='font-16 font-weight-400 opacity-06'>Let us handle your social media presence, from strategy to execution, so you can focus on running your business.</p>
+                           </div>
                             <a href='' className="d-flex justify-content-end">
                                 <Image src={arrow} alt="arrow" />
                             </a>
