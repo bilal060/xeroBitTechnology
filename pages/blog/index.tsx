@@ -1,9 +1,9 @@
 import Navbar from 'component/component/Navbar'
-import Projectidea from 'component/component/Projectidea'
-import Contactus from 'component/component/Contactus'
 import Footer from 'component/component/Footer'
 import Link from 'next/link'
 import PaginationArrow from 'component/assets/images/paginationArrow'
+import BlogContent from 'component/component/Blog/Blogs'
+import ExploreTopics from './exploreTopics'
 const blog = () => {
     return (
         <>
@@ -18,8 +18,8 @@ const blog = () => {
                     <h1 className='font-weight-700 font-56 pt-2'>Blog</h1>
                 </div>
             </header>
-            <Projectidea />
-            <Contactus />
+            <ExploreTopics />
+            <BlogContent />
             <Footer />
         </>
     )

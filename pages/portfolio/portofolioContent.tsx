@@ -1,6 +1,5 @@
 import BlogArrow from 'component/assets/images/blogArrow'
 import WebSlider from 'component/assets/images/webslider'
-import WebDevelopmentCard from 'component/component/webdevelopment/Card'
 import React from 'react'
 const feedBack = [
     {

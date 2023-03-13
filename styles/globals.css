@@ -76,7 +76,8 @@ select {
 .form-control:focus {
 	box-shadow: none !important;
 }
-a{
+
+a {
 	text-decoration: none !important;
 }
 
@@ -106,6 +107,10 @@ a{
 }
 
 /* Fonts  */
+.font-14 {
+	font-size: 14px !important;
+	line-height: 18px !important;
+}
 
 .font-16 {
 	font-size: 16px !important;
@@ -226,8 +231,18 @@ a{
 	text-transform: capitalize;
 }
 
+.mt-32px {
+	margin-top: 32px !important;
+}
 .mb-32px {
 	margin-bottom: 32px !important;
+}
+.pt-32px {
+	padding-top: 32px !important;
+}
+
+.pb-32px {
+	padding-bottom: 32px !important;
 }
 
 .container {
@@ -500,7 +515,6 @@ p {
 }
 
 .services-strategy ul li,
-.dynamic-team ul li,
 .uxui-design ul li {
 	margin-top: 33px;
 	font-family: var(--ff-primary);
@@ -519,7 +533,6 @@ p {
 }
 
 .services-strategy ul li::before,
-.dynamic-team ul li::before,
 .uxui-design ul li::before {
 	content: url(../assets/images/ticker.svg);
 	top: -13px;
@@ -536,9 +549,11 @@ p {
 	position: relative;
 	padding: 80px 0 !important;
 }
-.project-plan-desc{
+
+.project-plan-desc {
 	width: 50%;
 }
+
 .project-plan .img-fluid {
 	max-width: 13%;
 	height: auto;
@@ -669,6 +684,10 @@ p {
 	gap: 6px;
 }
 
+.gap-11px {
+	gap: 11px;
+}
+
 .gap-16px {
 	gap: 16px;
 }
@@ -689,6 +708,18 @@ p {
 
 .blogs .blog-cards .blog-inner a {
 	text-decoration: none;
+}
+
+.explore-blog {
+	background: #FFFFFF;
+	border: 1px solid #5390A5;
+	border-radius: 8px;
+	padding: 19px 13px;
+	border-left-width: 8px;
+}
+
+.blogContents .blogimg {
+	border-radius: 16px;
 }
 
 /* Contact Us */
@@ -758,18 +789,28 @@ select {
 	background-color: #000000;
 }
 
-.portofolio .portofolio-content .portofolio-card a{
+.portofolio .portofolio-content .portofolio-card a {
 	text-decoration: none;
 }
 
 .portofolio .portofolio-content .row .portofolio-card:nth-child(4n),
 .portofolio .portofolio-content .row .portofolio-card:nth-child(4n+1) {
-		background: rgba(83, 144, 165, 0.15);
+	background: rgba(83, 144, 165, 0.15);
 }
 
 .portofolio .portofolio-content .row .portofolio-card:nth-child(4n+2),
 .portofolio .portofolio-content .row .portofolio-card:nth-child(4n+3) {
 	background: rgba(83, 144, 165, 0.05);
+}
+
+.project-details:nth-child(odd) {
+	background: rgba(83, 144, 165, 0.05);
+}
+.project-details .border-top{
+	border-top: 2px solid #3f34344d !important;
+}
+.project-details img{
+	height: 490px !important;
 }
 
 /* Footer */
@@ -1045,7 +1086,6 @@ select {
 }
 
 /* About Us page */
-.dynamic-team h2,
 .aboutusdetails h2 {
 	font-family: var(--ff-primary);
 	font-style: normal;
@@ -1056,7 +1096,6 @@ select {
 	color: #000000;
 }
 
-.dynamic-team p,
 .aboutusdetails p,
 .uxuidetails p {
 	font-family: var(--ff-primary);
@@ -1398,7 +1437,7 @@ select {
 
 .accordion {
 	box-shadow: none !important;
-    border: none !important;
+	border: none !important;
 }
 
 /* .accordion-button{
