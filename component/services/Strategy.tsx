@@ -26,7 +26,7 @@ function Strategy() {
                                         <li>Enim adminim veniam, quis nostrud tation</li>
                                         <li>Enim adminim veniam, quis nostrud tation</li>
                                         <div className="btn-center">
-                                            <AnimatedButton text='Learn More' />
+                                            <AnimatedButton hrefto="aboutus" light={true} text='Learn More' />
                                         </div>
                                     </ul>
                                 </div>
@@ -37,7 +37,7 @@ function Strategy() {
                                         <li>Enim adminim veniam, quis nostrud tation</li>
                                         <li>Enim adminim veniam, quis nostrud tation</li>
                                         <div className="btn-center">
-                                            <AnimatedButton text='Learn More' />
+                                            <AnimatedButton hrefto="aboutus" light={true} text='Learn More' />
                                         </div>
                                     </ul>
                                 </div>
@@ -48,7 +48,7 @@ function Strategy() {
                                         <li>Enim adminim veniam, quis nostrud tation</li>
                                         <li>Enim adminim veniam, quis nostrud tation</li>
                                         <div className="btn-center">
-                                            <AnimatedButton text='Learn More' />
+                                            <AnimatedButton hrefto="aboutus" light={true} text='Learn More' />
                                         </div>
                                     </ul>
                                 </div>

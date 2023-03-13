@@ -14,7 +14,7 @@ const Services = () => {
         <>
             <section className="container services pb-5 mt-5 font-family-primary">
                 <h6 className='section-first-heading text-center pt-2 pb-2'>Our Services</h6>
-                <h2 className='section-sub-heading text-center text-capital pb-4'>What we offer</h2>
+                <h2 className='section-sub-heading text-center text-capital pb-4'>Revolutionize Your Digital Landscape With Our Expertise </h2>
                 <p className='font-16 font-weight-400 text-dark-gray text-center pb-4'>We offer a range of services to meet your business needs, including:</p>
 
                 <div className="row spacing_page gy-5">
@@ -22,8 +22,8 @@ const Services = () => {
                         <div className="services-cards">
                             <Digital />
                             <h3 className='font-24 font-weight-700 text-dark-gray'>Digital Strategy</h3>
-                            <p className='font-16 font-weight-400 opacity-06'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.</p>
-                            <a href='' className="mx-auto">
+                            <p className='font-16 font-weight-400 opacity-06'>We can work with you to create a comprehensive digital strategy that aligns with your business goals and maximizes ROI.</p>
+                            <a href='' className="d-flex justify-content-end">
                                 <Image src={arrow} alt="arrow" />
                             </a>
                         </div>
@@ -32,8 +32,8 @@ const Services = () => {
                         <div className="services-cards">
                             <Ux />
                             <h3 className='font-24 font-weight-700 text-dark-gray'>UX Design</h3>
-                            <p className='font-16 font-weight-400 opacity-06'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.</p>
-                            <a href='' className="mx-auto">
+                            <p className='font-16 font-weight-400 opacity-06'>Our talented designers can create engaging user experiences and intuitive interfaces that bring your digital products to life.</p>
+                            <a href='' className="d-flex justify-content-end">
                                 <Image src={arrow} alt="arrow" />
                             </a>
                         </div>
@@ -42,8 +42,8 @@ const Services = () => {
                         <div className="services-cards">
                             <ProductDesign />
                             <h3 className='font-24 font-weight-700 text-dark-gray'>Product Design</h3>
-                            <p className='font-16 font-weight-400 opacity-06'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.</p>
-                            <a href='' className="mx-auto">
+                            <p className='font-16 font-weight-400 opacity-06'>Our experienced team of developers can help turn your product idea into a reality, from concept to launch.</p>
+                            <a href='' className="d-flex justify-content-end">
                                 <Image src={arrow} alt="arrow" />
                             </a>
                         </div>
@@ -52,8 +52,8 @@ const Services = () => {
                         <div className="services-cards">
                             <ContentStrategy />
                             <h3 className='font-24 font-weight-700 text-dark-gray'>Content Strategy</h3>
-                            <p className='font-16 font-weight-400 opacity-06'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.</p>
-                            <a href='' className="mx-auto">
+                            <p className='font-16 font-weight-400 opacity-06'>We specialize in creating effective content strategies that help you connect with your audience and grow your brand.</p>
+                            <a href='' className="d-flex justify-content-end">
                                 <Image src={arrow} alt="arrow" />
                             </a>
                         </div>
@@ -62,8 +62,8 @@ const Services = () => {
                         <div className="services-cards">
                             <DesignConcept />
                             <h3 className='font-24 font-weight-700 text-dark-gray'>Design & Concept</h3>
-                            <p className='font-16 font-weight-400 opacity-06'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.</p>
-                            <a href='' className="mx-auto">
+                            <p className='font-16 font-weight-400 opacity-06'>We offer professional and modern web design services that are tailored to your business needs, with a focus on user experience.</p>
+                            <a href='' className="d-flex justify-content-end">
                                 <Image src={arrow} alt="arrow" />
                             </a>
                         </div>
@@ -72,15 +72,15 @@ const Services = () => {
                         <div className="services-cards">
                             <SocialMedia />
                             <h3 className='font-24 font-weight-700 text-dark-gray'>Social Media</h3>
-                            <p className='font-16 font-weight-400 opacity-06'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.</p>
-                            <a href='' className="mx-auto">
+                            <p className='font-16 font-weight-400 opacity-06'>Let us handle your social media presence, from strategy to execution, so you can focus on running your business.</p>
+                            <a href='' className="d-flex justify-content-end">
                                 <Image src={arrow} alt="arrow" />
                             </a>
                         </div>
                     </div>
                 </div>
                 <div className='d-flex justify-content-center pt-4 pb-4'>
-                    <AnimatedButton text='Learn More' />
+                    <AnimatedButton hrefto="services" light={true} text='Learn More' />
                 </div>
             </section>
         </>

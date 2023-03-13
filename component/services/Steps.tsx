@@ -13,7 +13,7 @@ function Steps() {
                             <br /> leo. Aliquam tempor orci sed ex facilisis vestibulum.</p>
                     </div>
                     <div className="row mt-5 steps-row g-0">
-                        <div className="col-md-2 ">
+                        <div className="col-lg-2 ">
                             <div className="step-icon">
                                 <Image src={stepsison} alt="step-1" className='mx-auto' />
                             </div>
@@ -25,7 +25,7 @@ function Steps() {
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             </div>
                         </div>
-                        <div className="col-md-2">
+                        <div className="col-lg-2">
                             <div className="step-icon">
                                 <Image src={stepsison} alt="step-1" className='mx-auto' />
                             </div>
@@ -37,7 +37,7 @@ function Steps() {
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             </div>
                         </div>
-                        <div className="col-md-2">
+                        <div className="col-lg-2">
                             <div className="step-icon">
                                 <Image src={stepsison} alt="step-1" className='mx-auto' />
                             </div>
@@ -49,7 +49,7 @@ function Steps() {
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             </div>
                         </div>
-                        <div className="col-md-2">
+                        <div className="col-lg-2">
                             <div className="step-icon">
                                 <Image src={stepsison} alt="step-1" className='mx-auto' />
                             </div>
@@ -61,7 +61,7 @@ function Steps() {
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             </div>
                         </div>
-                        <div className="col-md-2">
+                        <div className="col-lg-2">
                             <div className="step-icon">
                                 <Image src={stepsison} alt="step-1" className='mx-auto' />
                             </div>

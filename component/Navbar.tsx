@@ -34,7 +34,7 @@ const Navbar = () => {
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link className={router.pathname == "/Portfolio" ? "active nav-link nav_link" : "nav-link nav_link"} href="/Portfolio">
+                                <Link className={router.pathname == "/portfolio" ? "active nav-link nav_link" : "nav-link nav_link"} href="/portfolio">
                                     Portfolio
                                 </Link>
                             </li>

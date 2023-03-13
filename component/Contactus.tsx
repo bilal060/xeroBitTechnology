@@ -11,7 +11,11 @@ const Contactus = () => {
                     <div className='row '>
                         <div className='col-sm-12 col-md-6 col-lg-5 content-center'>
                             <h6 className='font-weight-500 section-first-heading  pb-2 text_center_justification'>  contact us </h6>
-                            <h2 className='font-weight-700 font-36-46 section-sub-heading mb-5 text-capital text_center_justification'>fill out this form to get started</h2>
+                            <h2 className='font-weight-700 font-36-46 section-sub-heading  text-capital text_center_justification'>Innovate With confidence With Xero Bit Technology </h2>
+                            <p className='font-18 text-dark-gray font-weight-400 mb-5'>
+                                Ready to make your business stand out in this digital world? Contact us today to arrange a consultation with one of our experts
+                            </p>
+
                             <form
                                 method="POST"
                                 id="contactForm"
@@ -78,7 +82,7 @@ const Contactus = () => {
                                     </div>
                                     <div className="col-md-12">
                                         <div className="btn-center">
-                                            <AnimatedButton text='Send Message' />
+                                            <AnimatedButton light={true} text='Send Message' />
                                         </div>
                                     </div>
                                 </div>

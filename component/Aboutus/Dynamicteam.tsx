@@ -17,7 +17,7 @@ function Dynamicteam() {
                                 <li>Enim adminim veniam, quis nostrud tation</li>
                                 <li>Enim adminim veniam, quis nostrud tation</li>
                                 <div className="btn-center">
-                                    <AnimatedButton text='Get Started Today' />
+                                    <AnimatedButton light={true} text='Get Started Today' />
                                 </div>
                             </ul>
                         </div>

@@ -22,7 +22,7 @@ export default function Webdeveloment() {
                 </div>
             </header>
             <DynamicTeam />
-            <Projectidea />
+            <Projectidea light={true} />
             <Choseus />
             <Testimonial />
             <Footer />

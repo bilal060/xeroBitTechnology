@@ -18,9 +18,9 @@ const Uxuidetails = () => {
                                     varius consequat</h2>
                                 <p className='font-16 font-weight-400 text-black'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam diam felis, mollis a varius sed, vulputate et orci. Donec lobortis ultrices tellus, vitae blandit ex molestie in. Mauris venenatis iaculis mauris ac hendrerit. Morbi convallis, neque ut pulvinar tempor, tellus diam bibendum enim, nec vehicula sem lacus eget nulla. Ut lacinia nisi dui, nec ornare augue scelerisque a. Nulla facilisi. Maecenas vel odio turpis. Nullam iaculis nunc quam, et lobortis tortor venenatis a. Pellentesque rhoncus lectus vitae est maximus suscipit. Maecenas sit amet nisi nec sapien pretium pellentesque et in ante. Aenean nisl velit, malesuada in mauris eget, pharetra commodo tellus.</p>
                                 <div className="btn-center">
-                                    <AnimatedButton text='Get Started Today' />
+                                    <AnimatedButton light={true} text='Get Started Today' />
                                 </div>
-                           </div>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -21,7 +21,7 @@ export default function Contactuspage() {
                 </div>
             </header>
             < Contactusicons />
-            <Projectidea />
+            <Projectidea light={true} />
             <Contactus />
             <Footer />
         </>

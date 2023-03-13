@@ -76,6 +76,9 @@ select {
 .form-control:focus {
 	box-shadow: none !important;
 }
+a{
+	text-decoration: none !important;
+}
 
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
@@ -470,13 +473,17 @@ p {
 	border: 0 !important;
 	gap: 16px;
 }
-.accordion-item,.accordion-header{
+
+.accordion-item,
+.accordion-header {
 	border: 0;
 }
+
 .aboutus_support .accordion-body {
 	padding: 0 0 27px 0 !important;
 }
-.accordion-item:last-child{
+
+.accordion-item:last-child {
 	box-shadow: none;
 }
 
@@ -492,7 +499,6 @@ p {
 	align-items: center;
 }
 
-.aboutus ul li,
 .services-strategy ul li,
 .dynamic-team ul li,
 .uxui-design ul li {
@@ -512,7 +518,6 @@ p {
 	padding-left: 43px;
 }
 
-.aboutus ul li::before,
 .services-strategy ul li::before,
 .dynamic-team ul li::before,
 .uxui-design ul li::before {
@@ -526,11 +531,14 @@ p {
 
 .project-plan {
 	font-family: var(--ff-primary);
-	background-image: url(../assets/images/Projectideabg.jpg);
+	/* background-image: url(../assets/images/Projectideabg.jpg); */
+	background-color: #000000;
 	position: relative;
 	padding: 80px 0 !important;
 }
-
+.project-plan-desc{
+	width: 50%;
+}
 .project-plan .img-fluid {
 	max-width: 13%;
 	height: auto;
@@ -567,7 +575,7 @@ p {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 18px;
-	line-height: 17px;
+	line-height: 24px;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
 	color: var(--clr-primary);
@@ -738,6 +746,30 @@ select {
 	resize: none;
 	border: 0;
 	outline: 0;
+}
+
+/* portofolio */
+
+.portofolio .project-plan {
+	background-color: #5390A5 !important;
+}
+
+.portofolio .project-plan .btn_custome {
+	background-color: #000000;
+}
+
+.portofolio .portofolio-content .portofolio-card a{
+	text-decoration: none;
+}
+
+.portofolio .portofolio-content .row .portofolio-card:nth-child(4n),
+.portofolio .portofolio-content .row .portofolio-card:nth-child(4n+1) {
+		background: rgba(83, 144, 165, 0.15);
+}
+
+.portofolio .portofolio-content .row .portofolio-card:nth-child(4n+2),
+.portofolio .portofolio-content .row .portofolio-card:nth-child(4n+3) {
+	background: rgba(83, 144, 165, 0.05);
 }
 
 /* Footer */
