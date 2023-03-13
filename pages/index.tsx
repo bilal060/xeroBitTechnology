@@ -27,7 +27,7 @@ export default function Home() {
           </p>
           <AnimatedButton text='Learn More' />
         </div>
-        <Image src={rightimage} alt="" className='hero-rightimage' />
+        <Image src={rightimage} alt="animated-image" className='hero-rightimage' />
       </header>
       <Services />
       <Aboutus />

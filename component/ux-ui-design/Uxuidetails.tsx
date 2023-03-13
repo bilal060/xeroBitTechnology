@@ -10,7 +10,7 @@ const Uxuidetails = () => {
                 <div className='container g-0'>
                     <div className='row m-0  flex-row-reverse'>
                         <div className='col-md-6 col-lg-6 col-sm-12 image_left_container p-0 d-md-block d-none'>
-                            <Image src={uxuidetails} alt="img" className='img-fluid' />
+                            <Image src={uxuidetails} alt="uxuidetail-image" className='img-fluid' />
                         </div>
                         <div className='col-md-6 col-lg-6 col-sm-12 '>
                             <div className='text_center_justification'>
@@ -20,7 +20,7 @@ const Uxuidetails = () => {
                                 <div className="btn-center">
                                     <AnimatedButton text='Get Started Today' />
                                 </div>
-                           </div>
+                            </div>
                         </div>
                     </div>
                 </div>

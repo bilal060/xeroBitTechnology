@@ -41,43 +41,43 @@ const Technologie = () => {
                                 <div className='row'>
                                     <div className='col-md-6 col-lg-6 col-6'>
                                         <div className='d-flex flex-sm-row flex-column gap-16px p-3'>
-                                            <Image src={reacticon} alt="img" />
+                                            <Image src={reacticon} alt="reacticon" />
                                             <h6 className='d-flex align-items-center font-weight-700 font-18 text-dark-gray'>React</h6>
                                         </div>
                                     </div>
                                     <div className='col-md-6 col-lg-6 col-6'>
                                         <div className='d-flex flex-sm-row flex-column gap-16px p-3'>
-                                            <Image src={angularicon} alt="img" />
+                                            <Image src={angularicon} alt="angularicon" />
                                             <h6 className='d-flex align-items-center font-weight-700 font-18 text-dark-gray'>Angular</h6>
                                         </div>
                                     </div>
                                     <div className='col-md-6 col-lg-6 col-6'>
                                         <div className='d-flex flex-sm-row flex-column gap-16px p-3'>
-                                            <Image src={css3icon} alt="img" />
+                                            <Image src={css3icon} alt="css3icon" />
                                             <h6 className='d-flex align-items-center font-weight-700 font-18 text-dark-gray'>CSS3</h6>
                                         </div>
                                     </div>
                                     <div className='col-md-6 col-lg-6 col-6'>
                                         <div className='d-flex flex-sm-row flex-column gap-16px p-3'>
-                                            <Image src={ionicicon} alt="img" />
+                                            <Image src={ionicicon} alt="ionicicon" />
                                             <h6 className='d-flex align-items-center font-weight-700 font-18 text-dark-gray'>Ionic</h6>
                                         </div>
                                     </div>
                                     <div className='col-md-6 col-lg-6 col-6'>
                                         <div className='d-flex flex-sm-row flex-column gap-16px p-3'>
-                                            <Image src={vuejsicon} alt="img" />
+                                            <Image src={vuejsicon} alt="vuejsicon" />
                                             <h6 className='d-flex align-items-center font-weight-700 font-18 text-dark-gray'>Vue.JS</h6>
                                         </div>
                                     </div>
                                     <div className='col-md-6 col-lg-6 col-6'>
                                         <div className='d-flex flex-sm-row flex-column gap-16px p-3'>
-                                            <Image src={html5icon} alt="img" />
+                                            <Image src={html5icon} alt="html5icon" />
                                             <h6 className='d-flex align-items-center font-weight-700 font-18 text-dark-gray'>HTML5</h6>
                                         </div>
                                     </div>
                                     <div className='col-md-6 col-lg-6 col-6'>
                                         <div className='d-flex flex-sm-row flex-column gap-16px p-3'>
-                                            <Image src={reduxicon} alt="img" />
+                                            <Image src={reduxicon} alt="reduxicon" />
                                             <h6 className='d-flex align-items-center font-weight-700 font-18 text-dark-gray'>Redux</h6>
                                         </div>
                                     </div>
@@ -90,31 +90,31 @@ const Technologie = () => {
                                 <div className='row'>
                                     <div className='col-md-6 col-lg-6 col-6'>
                                         <div className='d-flex flex-sm-row flex-column gap-16px p-3'>
-                                            <Image src={nodejsicon} alt="img" />
+                                            <Image src={nodejsicon} alt="nodejsicon" />
                                             <h6 className='d-flex align-items-center font-weight-700 font-18 text-dark-gray'>Node.JS</h6>
                                         </div>
                                     </div>
                                     <div className='col-md-6 col-lg-6 col-6'>
                                         <div className='d-flex flex-sm-row flex-column gap-16px p-3'>
-                                            <Image src={loopbackicon} alt="img" />
+                                            <Image src={loopbackicon} alt="loopbackicon" />
                                             <h6 className='d-flex align-items-center font-weight-700 font-18 text-dark-gray'>Loopback</h6>
                                         </div>
                                     </div>
                                     <div className='col-md-6 col-lg-6 col-6'>
                                         <div className='d-flex flex-sm-row flex-column gap-16px p-3'>
-                                            <Image src={nextjsicon} alt="img" />
+                                            <Image src={nextjsicon} alt="nextjsicon" />
                                             <h6 className='d-flex align-items-center font-weight-700 font-18 text-dark-gray'>Nest.JS</h6>
                                         </div>
                                     </div>
                                     <div className='col-md-6 col-lg-6 col-6'>
                                         <div className='d-flex flex-sm-row flex-column gap-16px p-3'>
-                                            <Image src={expressjsicon} alt="img" />
+                                            <Image src={expressjsicon} alt="expressicon" />
                                             <h6 className='d-flex align-items-center font-weight-700 font-18 text-dark-gray'>Express.JS</h6>
                                         </div>
                                     </div>
                                     <div className='col-md-6 col-lg-6 col-6'>
                                         <div className='d-flex flex-sm-row flex-column gap-16px p-3'>
-                                            <Image src={pythonicon} alt="img" />
+                                            <Image src={pythonicon} alt="pythonicon" />
                                             <h6 className='d-flex align-items-center font-weight-700 font-18 text-dark-gray'>Python</h6>
                                         </div>
                                     </div>
@@ -127,43 +127,43 @@ const Technologie = () => {
                                 <div className='row'>
                                     <div className='col-md-6 col-lg-6 col-6'>
                                         <div className='d-flex flex-sm-row flex-column gap-16px p-3'>
-                                            <Image src={mysqlicon} alt="img" />
+                                            <Image src={mysqlicon} alt="mysqlicon" />
                                             <h6 className='d-flex align-items-center font-weight-700 font-18 text-dark-gray'>MySQL</h6>
                                         </div>
                                     </div>
                                     <div className='col-md-6 col-lg-6 col-6'>
                                         <div className='d-flex flex-sm-row flex-column gap-16px p-3'>
-                                            <Image src={dynamoDBicon} alt="img" />
+                                            <Image src={dynamoDBicon} alt="dynamoDBicon" />
                                             <h6 className='d-flex align-items-center font-weight-700 font-18 text-dark-gray'>DynamoDB</h6>
                                         </div>
                                     </div>
                                     <div className='col-md-6 col-lg-6 col-6'>
                                         <div className='d-flex flex-sm-row flex-column gap-16px p-3'>
-                                            <Image src={postrgeicon} alt="img" />
+                                            <Image src={postrgeicon} alt="postrgeicon" />
                                             <h6 className='d-flex align-items-center font-weight-700 font-18 text-dark-gray'>PostGRE</h6>
                                         </div>
                                     </div>
                                     <div className='col-md-6 col-lg-6 col-6'>
                                         <div className='d-flex flex-sm-row flex-column gap-16px p-3'>
-                                            <Image src={elasticsearchicon} alt="img" />
+                                            <Image src={elasticsearchicon} alt="elasticicon" />
                                             <h6 className='d-flex align-items-center font-weight-700 font-18 text-dark-gray'>Elasticsearch</h6>
                                         </div>
                                     </div>
                                     <div className='col-md-6 col-lg-6 col-6'>
                                         <div className='d-flex flex-sm-row flex-column gap-16px p-3'>
-                                            <Image src={mongodbicon} alt="img" />
+                                            <Image src={mongodbicon} alt="mongodbicon" />
                                             <h6 className='d-flex align-items-center font-weight-700 font-18 text-dark-gray'>MongoDB</h6>
                                         </div>
                                     </div>
                                     <div className='col-md-6 col-lg-6 col-6'>
                                         <div className='d-flex flex-sm-row flex-column gap-16px p-3'>
-                                            <Image src={amazonRDSicon} alt="img" />
+                                            <Image src={amazonRDSicon} alt="amazoneicon" />
                                             <h6 className='d-flex align-items-center font-weight-700 font-18 text-dark-gray'>AmazonRDS</h6>
                                         </div>
                                     </div>
                                     <div className='col-md-6 col-lg-6 col-6'>
                                         <div className='d-flex flex-sm-row flex-column gap-16px p-3'>
-                                            <Image src={redisicon} alt="img" />
+                                            <Image src={redisicon} alt="redisicon" />
                                             <h6 className='d-flex align-items-center font-weight-700 font-18 text-dark-gray'>Redis</h6>
                                         </div>
                                     </div>
@@ -176,37 +176,37 @@ const Technologie = () => {
                                 <div className='row'>
                                     <div className='col-md-6 col-lg-6 col-6'>
                                         <div className='d-flex flex-sm-row flex-column gap-16px p-3'>
-                                            <Image src={seleniumicon} alt="img" />
+                                            <Image src={seleniumicon} alt="seleinuimicon" />
                                             <h6 className='d-flex align-items-center font-weight-700 font-18 text-dark-gray '>Selenium</h6>
                                         </div>
                                     </div>
                                     <div className='col-md-6 col-lg-6 col-6'>
                                         <div className='d-flex flex-sm-row flex-column gap-16px p-3'>
-                                            <Image src={cucumbericon} alt="img" />
+                                            <Image src={cucumbericon} alt="cucumbericon" />
                                             <h6 className='d-flex align-items-center font-weight-700 font-18 text-dark-gray '>Cucumber</h6>
                                         </div>
                                     </div>
                                     <div className='col-md-6 col-lg-6 col-6'>
                                         <div className='d-flex flex-sm-row flex-column gap-16px p-3'>
-                                            <Image src={cypressicon} alt="img" />
+                                            <Image src={cypressicon} alt="cyperssicon" />
                                             <h6 className='d-flex align-items-center font-weight-700 font-18 text-dark-gray '>Cypress</h6>
                                         </div>
                                     </div>
                                     <div className='col-md-6 col-lg-6 col-6'>
                                         <div className='d-flex flex-sm-row flex-column gap-16px p-3'>
-                                            <Image src={jMetericon} alt="img" />
+                                            <Image src={jMetericon} alt="jMetericon" />
                                             <h6 className='d-flex align-items-center font-weight-700 font-18 text-dark-gray '>JMeter</h6>
                                         </div>
                                     </div>
                                     <div className='col-md-6 col-lg-6 col-6'>
                                         <div className='d-flex flex-sm-row flex-column gap-16px p-3'>
-                                            <Image src={postmanicon} alt="img" />
+                                            <Image src={postmanicon} alt="postmanicon" />
                                             <h6 className='d-flex align-items-center font-weight-700 font-18 text-dark-gray '>Postman</h6>
                                         </div>
                                     </div>
                                     <div className='col-md-6 col-lg-6 col-6'>
                                         <div className='d-flex flex-sm-row flex-column gap-16px p-3'>
-                                            <Image src={SOAPUIicon} alt="img" />
+                                            <Image src={SOAPUIicon} alt="SOAPUicon" />
                                             <h6 className='d-flex align-items-center font-weight-700 font-18 text-dark-gray '>SOAPUI</h6>
                                         </div>
                                     </div>

@@ -22,7 +22,7 @@ const DynamicTeam = () => {
                             </div>
                         </div>
                         <div className='col-md-6 col-lg-7 g-0 image_right_container d-md-block d-none'>
-                            <Image src={rightimage} alt="image" className='img-fluid float-end' />
+                            <Image src={rightimage} alt="dynamicteam-image" className='img-fluid float-end' />
                         </div>
                     </div>
                 </div>

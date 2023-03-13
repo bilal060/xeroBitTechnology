@@ -11,7 +11,7 @@ function Support() {
                             <h6 className='section-first-heading text_center_justification pt-4 mt-1 mb-3'>Support</h6>
                             <h2 className='font-36-46 section-sub-heading text_center_justification pb-2'>frequently asked questions</h2>
                             <p className='font-16 font-weight-400 text-dark-gray pt-3 pb-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.</p>
-                            <Image src={aboutsupportimage} alt="img" className='img-fluid mx-auto' />
+                            <Image src={aboutsupportimage} alt="aboutsupport-image" className='img-fluid mx-auto' />
                         </div>
                         <div className="col-md-8 col-lg-8 col-12">
                             <div className="accordion .collapes_bt" id="accordionExample">
@@ -87,8 +87,6 @@ function Support() {
                                         </div>
                                     </div>
                                 </div>
-                               
-
                             </div>
                         </div>
                     </div>

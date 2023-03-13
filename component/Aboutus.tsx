@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 import aboutusimagegroup from '../assets/images/aboutus.svg'
-import aboutusimage from '../assets/images/aboutus2.svg'
 import AnimatedButton from './Animated-btn'
 const Aboutus = () => {
   return (
@@ -24,7 +23,6 @@ const Aboutus = () => {
             </div>
             <div className="col-sm-12 col-md-5 col-lg-6">
               <Image src={aboutusimagegroup} alt="aoutus-image" className='img-fluid aboutus-img d-md-block d-none' />
-              {/* <Image src={aboutusimage} alt="aoutus-image" className='mx-auto img-fluid aboutus-img-2 d-md-block d-none' /> */}
             </div>
           </div>
         </div>

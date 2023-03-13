@@ -15,7 +15,7 @@ function Steps() {
                     <div className="row mt-5 steps-row g-0">
                         <div className="col-md-2 ">
                             <div className="step-icon">
-                                <Image src={stepsison} alt="step-1" className='mx-auto' />
+                                <Image src={stepsison} alt="step1" className='mx-auto' />
                             </div>
                             <div className='step-bar'>
                                 <span></span>
@@ -27,7 +27,7 @@ function Steps() {
                         </div>
                         <div className="col-md-2">
                             <div className="step-icon">
-                                <Image src={stepsison} alt="step-1" className='mx-auto' />
+                                <Image src={stepsison} alt="step2" className='mx-auto' />
                             </div>
                             <div className='step-bar'>
                                 <span></span>
@@ -39,7 +39,7 @@ function Steps() {
                         </div>
                         <div className="col-md-2">
                             <div className="step-icon">
-                                <Image src={stepsison} alt="step-1" className='mx-auto' />
+                                <Image src={stepsison} alt="step3" className='mx-auto' />
                             </div>
                             <div className='step-bar'>
                                 <span></span>
@@ -51,7 +51,7 @@ function Steps() {
                         </div>
                         <div className="col-md-2">
                             <div className="step-icon">
-                                <Image src={stepsison} alt="step-1" className='mx-auto' />
+                                <Image src={stepsison} alt="step4" className='mx-auto' />
                             </div>
                             <div className='step-bar'>
                                 <span></span>
@@ -63,7 +63,7 @@ function Steps() {
                         </div>
                         <div className="col-md-2">
                             <div className="step-icon">
-                                <Image src={stepsison} alt="step-1" className='mx-auto' />
+                                <Image src={stepsison} alt="step5" className='mx-auto' />
                             </div>
                             <div className='step-bar'>
                                 <span></span>

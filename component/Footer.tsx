@@ -14,21 +14,21 @@ const Footer = () => {
                     <div className="row m-0">
                         <div className="col-md-5 col-lg-4 col-sm-12 mt-3 ps-0 pe-md-5">
                             <a className="navbar-brand" href="#">
-                                <Image src={logo} alt="img" className='img-fluid footer-logo' />
+                                <Image src={logo} alt="footer-logo" className='img-fluid footer-logo' />
                             </a>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum. Duis accumsan diam mauris, sit amet tristique felis rutrum nec. In accumsan sapien eu egestas ultricies.</p>
                             <div className="row">
                                 <div className='col-2'>
-                                    <a href=''><Image src={fbicon} alt="icons" className='fb-icon' /></a>
+                                    <a href=''><Image src={fbicon} alt="fbicons" className='fb-icon' /></a>
                                 </div>
                                 <div className='col-2'>
-                                    <a href=''><Image src={linkicon} alt="icons" className='lin-icon' /></a>
+                                    <a href=''><Image src={linkicon} alt="linkedinicons" className='lin-icon' /></a>
                                 </div>
                                 <div className='col-2'>
-                                    <a href=''><Image src={instaicon} alt="icons" className='insta-icon' /></a>
+                                    <a href=''><Image src={instaicon} alt="instagramicons" className='insta-icon' /></a>
                                 </div>
                                 <div className='col-2'>
-                                    <a href=''><Image src={twicon} alt="icons" className='tw-icon' /></a>
+                                    <a href=''><Image src={twicon} alt="twittericons" className='tw-icon' /></a>
                                 </div>
                             </div>
                         </div>

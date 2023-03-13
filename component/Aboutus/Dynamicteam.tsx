@@ -22,7 +22,7 @@ function Dynamicteam() {
                             </ul>
                         </div>
                         <div className='col-md-6 col-lg-6 col-sm-12 d-flex align-items-center pb-2 d-md-block d-none'>
-                            <Image src={aboutimage} alt="img" className='ms-auto img-fluid align-middle' />
+                            <Image src={aboutimage} alt="dynamicteam-image" className='ms-auto img-fluid align-middle' />
                         </div>
                     </div>
                 </div>

@@ -22,7 +22,7 @@ const Uxuidesign = () => {
                             </div>
                         </div>
                         <div className='col-md-6 col-lg-7 g-0 image_right_container d-md-block d-none'>
-                            <Image src={uxuiimage} alt="image" className='img-fluid float-end' />
+                            <Image src={uxuiimage} alt="uxui-image" className='img-fluid float-end' />
                         </div>
                     </div>
                 </div>

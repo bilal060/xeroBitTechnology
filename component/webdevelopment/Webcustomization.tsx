@@ -15,7 +15,7 @@ const Webcustomization = () => {
                         </div>
                         <div className='col-md-6 col-lg-6 col-sm-12 mt-5'>
                             <div className='web-native rounded-12 bg-white px_35 h-100'>
-                                <Image src={mobileicon} alt="img" className='img-fluid content-center-992' />
+                                <Image src={mobileicon} alt="mobileicon" className='img-fluid content-center-992' />
                                 <h4 className='font-weight-700 font-24 text_center_justification-992 pt-3'>Native Mobile Development</h4>
                                 <p className='font-weight-400 font-16 text-dark-gray opacity-06 text_center_justification-992 pt-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulm nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.</p>
                                 <h6 className='font-weight-700 font-16 text_center_justification-992 pt-3'><span className='text-xero-primary'>Frameworks:</span> Angular, Typescript, JavaScript, CSS, and Vue, js</h6>
@@ -23,7 +23,7 @@ const Webcustomization = () => {
                         </div>
                         <div className='col-md-6 col-lg-6 col-sm-12 mt-5'>
                             <div className='web-native rounded-12 bg-white px_35 h-100'>
-                                <Image src={nativicon} alt="img" className='img-fluid content-center-992' />
+                                <Image src={nativicon} alt="nativicon" className='img-fluid content-center-992' />
                                 <h4 className='font-weight-700 font-24 text_center_justification-992 pt-3'>Cross-platform Mobile Development</h4>
                                 <p className='font-weight-400 font-16 text-dark-gray opacity-06 text_center_justification-992 pt-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulm nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.</p>
                                 <h6 className='font-weight-700 font-16 text_center_justification-992 pt-3'><span className='text-xero-primary'>Frameworks:</span> React Native, Flutter, and Ionic</h6>

@@ -139,11 +139,11 @@ const Testimonial = () => {
                                                 </div>
                                             </div>
                                             <div className='d-flex gap-6px'>
-                                                <Image src={rating} alt='' />
-                                                <Image src={rating} alt='' />
-                                                <Image src={rating} alt='' />
-                                                <Image src={rating} alt='' />
-                                                <Image src={rating} alt='' />
+                                                <Image src={rating} alt='rating' />
+                                                <Image src={rating} alt='rating' />
+                                                <Image src={rating} alt='rating' />
+                                                <Image src={rating} alt='rating' />
+                                                <Image src={rating} alt='rating' />
                                             </div>
                                         </div>
 

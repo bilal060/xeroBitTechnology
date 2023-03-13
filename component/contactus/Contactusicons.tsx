@@ -13,7 +13,7 @@ const Contactusicons = () => {
                     <div className='col-md-4 col-lg-4 col-12 mt-2 mb-2'>
                         <div className='contact-icons gap-43px h-100 px_45_40 rounded-16'>
                             <div className='big-icon'>
-                                <Image src={callicon} alt="call" className='img-fluid' />
+                                <Image src={callicon} alt="callicon" className='img-fluid' />
                             </div>
                             <div className='text-icons align-items-center'>
                                 <h3 className='font-weight-700 font-24-100 text_center_justification text-md_center '>Phone Number</h3>
@@ -24,7 +24,7 @@ const Contactusicons = () => {
                     <div className='col-md-4 col-lg-4 col-12 mt-2 mb-2'>
                         <div className='contact-icons gap-43px h-100 px_45_40 rounded-16'>
                             <div className='big-icon'>
-                                <Image src={emailicon} alt="call" className='img-fluid' />
+                                <Image src={emailicon} alt="emailicon" className='img-fluid' />
                             </div>
                             <div className='text-icons align-items-center'>
                                 <h3 className='font-weight-700 font-24-100 text_center_justification text-md_center '>Mail</h3>
@@ -35,7 +35,7 @@ const Contactusicons = () => {
                     <div className='col-md-4 col-lg-4 col-12 mt-2 mb-2'>
                         <div className='contact-icons gap-43px h-100 px_45_40 rounded-16'>
                             <div className='big-icon'>
-                                <Image src={locationicon} alt="call" className='img-fluid' />
+                                <Image src={locationicon} alt="locationicon" className='img-fluid' />
                             </div>
                             <div className='text-icons align-items-center'>
                                 <h3 className='font-weight-700 font-24-100 text_center_justification text-md_center '>Address</h3>

@@ -17,7 +17,7 @@ const Blog = () => {
                     <p className='font-16 font-weight-400 text-dark-gray text-center pt-4 pb-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan <br />  leo. Aliquam tempor orci sed ex facilisis vestibulum.</p>
                     <div className='row blog-cards pt-5'>
                         <div className='col-md-6 col-lg-4 mb-4 blog-inner text-black'>
-                            <Image src={blogimage1} alt="image-blog1" className='blogimg mt-2 mb-lg-4 mb-3 mx-auto d-block' />
+                            <Image src={blogimage1} alt="blog1" className='blogimg mt-2 mb-lg-4 mb-3 mx-auto d-block' />
                             <h4 className='pb-lg-4 pb-3 m-0 font-24 font-weight-700 text-capital text_center_justification'>Lorem ipsum dolor sit amet</h4>
                             <p className='text_center_justification font-16 font-weight-400  mb-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.</p>
                             <a href='' className=' d-flex gap-6px text-black font-16 font-weight-700 text-center align-items-center  justify-content-center justify-content-md-start'><span className='pb-1'>Read Blog</span>
@@ -25,16 +25,15 @@ const Blog = () => {
                             </a>
                         </div>
                         <div className='col-md-6 col-lg-4 mb-4 blog-inner'>
-                            <Image src={blogimage2} alt="image-blog1" className='blogimg mt-2 mb-lg-4 mb-3 mx-auto d-block' />
+                            <Image src={blogimage2} alt="blog2" className='blogimg mt-2 mb-lg-4 mb-3 mx-auto d-block' />
                             <h4 className='pb-lg-4 pb-3 m-0 font-24 font-weight-700 text-capital text_center_justification'>Lorem ipsum dolor sit amet</h4>
                             <p className='text_center_justification font-16 font-weight-400  mb-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.</p>
-                            {/* <a href='' className=''>Read Blog</a> */}
                             <a href='' className=' d-flex gap-6px text-black font-16 font-weight-700 text-center align-items-center  justify-content-center justify-content-md-start'><span className='pb-1'>Read Blog</span>
                                 <BlogArrow />
                             </a>
                         </div>
                         <div className='col-md-6 col-lg-4 blog-inner'>
-                            <Image src={blogimage3} alt="image-blog1" className='blogimg mt-2 mb-lg-4 mb-3 mx-auto d-block' />
+                            <Image src={blogimage3} alt="blog3" className='blogimg mt-2 mb-lg-4 mb-3 mx-auto d-block' />
                             <h4 className='pb-lg-4 pb-3 m-0 font-24 font-weight-700 text-capital text_center_justification'>Lorem ipsum dolor sit amet</h4>
                             <p className='text_center_justification font-16 font-weight-400  mb-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.</p>
                             <a href='' className=' d-flex gap-6px text-black font-16 font-weight-700 text-center align-items-center  justify-content-center justify-content-md-start'><span className='pb-1'>Read Blog</span>

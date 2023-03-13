@@ -17,7 +17,7 @@ const Websolutions = () => {
                             </div>
                         </div>
                         <div className='col-md-6 col-lg-6 g-0 image_right_container display_none_767'>
-                            <Image src={solutionimg} alt="strategyimage" className='img-fluid float-end' />
+                            <Image src={solutionimg} alt="websolutionimage" className='img-fluid float-end' />
                         </div>
                     </div>
                 </div>

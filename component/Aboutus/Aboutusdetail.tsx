@@ -10,7 +10,7 @@ function Aboutusdetail() {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-md-6 col-lg-6 col-sm-12 d-flex align-items-center pb-3'>
-                            <Image src={aboutusdetails} alt="img" className='mx-auto img-fluid align-middle' />
+                            <Image src={aboutusdetails} alt="aboutdetail-image" className='mx-auto img-fluid align-middle' />
                         </div>
                         <div className='col-md-6 col-lg-6 col-sm-12'>
                             <h2 className='section-sub-heading font-36-46 text_center_justification pb-2'>Aliquam ultricies, arcu vel

@@ -18,35 +18,35 @@ const Buildingsolutions = () => {
                     <p className='font-weight-400 font-16 text-center text-dark-gray'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.</p>
                     <div className='row mt-2 mb-2'>
                         <div className='col-md-3 col-lg-3 col-sm-6 col-6 mt-5'>
-                            <Image src={nativicon} alt="img" className='img-fluid mx-auto' />
+                            <Image src={nativicon} alt="nativeicon" className='img-fluid mx-auto' />
                             <h4 className='font-weight-700 text-center font-18 text-dark-gray pt-4'>Custom-Built <br /> Web Apps</h4>
                         </div>
                         <div className='col-md-3 col-lg-3 col-sm-6 col-6 mt-5'>
-                            <Image src={mobileicon} alt="img" className='img-fluid mx-auto' />
+                            <Image src={mobileicon} alt="mobileicon" className='img-fluid mx-auto' />
                             <h4 className='font-weight-700 text-center font-18 text-dark-gray pt-4'>Customised <br />  Mobile Apps</h4>
                         </div>
                         <div className='col-md-3 col-lg-3 col-sm-6 col-6 mt-5'>
-                            <Image src={portaldashboard} alt="img" className='img-fluid mx-auto' />
+                            <Image src={portaldashboard} alt="portaldashboardicon" className='img-fluid mx-auto' />
                             <h4 className='font-weight-700 text-center font-18 text-dark-gray pt-4'>Portals & <br /> Dashboards</h4>
                         </div>
                         <div className='col-md-3 col-lg-3 col-sm-6 col-6 mt-5'>
-                            <Image src={ecommerce} alt="img" className='img-fluid mx-auto' />
+                            <Image src={ecommerce} alt="ecommerceicon" className='img-fluid mx-auto' />
                             <h4 className='font-weight-700 text-center font-18 text-dark-gray pt-4'>E-Commerce <br /> Development</h4>
                         </div>
                         <div className='col-md-3 col-lg-3 col-sm-6 col-6 mt-5'>
-                            <Image src={bespoke} alt="img" className='img-fluid mx-auto' />
+                            <Image src={bespoke} alt="bespokeicon" className='img-fluid mx-auto' />
                             <h4 className='font-weight-700 text-center font-18 text-dark-gray pt-4'>Bespoke <br /> Websites</h4>
                         </div>
                         <div className='col-md-3 col-lg-3 col-sm-6 col-6 mt-5'>
-                            <Image src={saas} alt="img" className='img-fluid mx-auto' />
+                            <Image src={saas} alt="sasicon" className='img-fluid mx-auto' />
                             <h4 className='font-weight-700 text-center font-18 text-dark-gray pt-4'>SaaS-based <br /> Products</h4>
                         </div>
                         <div className='col-md-3 col-lg-3 col-sm-6 col-6 mt-5'>
-                            <Image src={opensource} alt="img" className='img-fluid mx-auto' />
+                            <Image src={opensource} alt="opensourceicon" className='img-fluid mx-auto' />
                             <h4 className='font-weight-700 text-center font-18 text-dark-gray pt-4'>Open-Source <br /> Web Apps</h4>
                         </div>
                         <div className='col-md-3 col-lg-3 col-sm-6 col-6 mt-5'>
-                            <Image src={Progressiveapps} alt="img" className='img-fluid mx-auto' />
+                            <Image src={Progressiveapps} alt="prograciveicon" className='img-fluid mx-auto' />
                             <h4 className='font-weight-700 text-center font-18 text-dark-gray pt-4'>Progressive <br /> Web Apps</h4>
                         </div>
                     </div>
