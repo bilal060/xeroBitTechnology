@@ -234,9 +234,11 @@ a {
 .mt-32px {
 	margin-top: 32px !important;
 }
+
 .mb-32px {
 	margin-bottom: 32px !important;
 }
+
 .pt-32px {
 	padding-top: 32px !important;
 }
@@ -806,11 +808,21 @@ select {
 .project-details:nth-child(odd) {
 	background: rgba(83, 144, 165, 0.05);
 }
-.project-details .border-top{
+
+.project-details .border-top {
 	border-top: 2px solid #3f34344d !important;
 }
-.project-details img{
+
+.project-details img {
 	height: 490px !important;
+}
+
+.greyScale {
+	filter: grayscale(1);
+}
+
+.projectDetails-main .pagination-hero .project-details-1 {
+	width: 50%;
 }
 
 /* Footer */
