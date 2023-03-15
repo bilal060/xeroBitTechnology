@@ -13,14 +13,14 @@ import Testimonial from 'component/component/Testimonial/Testimonial'
 import Footer from 'component/component/Footer'
 import AnimatedButton from 'component/component/Animated-btn'
 const inter = Inter({ subsets: ['latin'] })
-
+// CC
 export default function Home() {
   return (
     <>
       <header className="header pb-5">
         <Navbar />
         <div className="hero font-family-primary container p-0">
-          <h1 className="font-56 font-weight-900 text-center mb-32px">Empowering Your Digital <br/> Dreams</h1>
+          <h1 className="font-56 font-weight-900 text-center mb-32px">Empowering Your Digital <br /> Dreams</h1>
           <p className='font-18 font-weight-400 w-50 m-0'>
             Empowering businesses to achieve their full potential through our up to date technology and design.
           </p>
