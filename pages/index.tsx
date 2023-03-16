@@ -13,7 +13,7 @@ import Testimonial from 'component/component/Testimonial/Testimonial'
 import Footer from 'component/component/Footer'
 import AnimatedButton from 'component/component/Animated-btn'
 const inter = Inter({ subsets: ['latin'] })
-// CC
+
 export default function Home() {
   return (
     <>
