@@ -234,9 +234,11 @@ a {
 .mt-32px {
 	margin-top: 32px !important;
 }
+
 .mb-32px {
 	margin-bottom: 32px !important;
 }
+
 .pt-32px {
 	padding-top: 32px !important;
 }
@@ -806,10 +808,12 @@ select {
 .project-details:nth-child(odd) {
 	background: rgba(83, 144, 165, 0.05);
 }
-.project-details .border-top{
+
+.project-details .border-top {
 	border-top: 2px solid #3f34344d !important;
 }
-.project-details img{
+
+.project-details img {
 	height: 490px !important;
 }
 
@@ -1269,7 +1273,7 @@ select {
 
 .button.button--shikoba {
 	padding: 0 5px 0 10px;
-	overflow: hidden;
+	/* overflow: hidden; */
 	border: 0;
 	background-color: transparent;
 	outline: 0;
@@ -1282,61 +1286,78 @@ select {
 
 .button--shikoba>span {
 	display: inline-block;
-	-webkit-transform: translate3d(0px, 0, 0);
-	transform: translate3d(-10px, 0, 0);
-	-webkit-transition: -webkit-transform 0.5s;
-	transition: transform 0.5s;
 	-webkit-transition-timing-function: cubic-bezier(0.36, 0.07, 0.19, 0.97);
 	transition-timing-function: cubic-bezier(0.36, 0.07, 0.19, 0.97);
 }
 
+.button--shikoba {
+	position: relative;
+}
+
+.button--shikoba .bar-icon {
+	position: absolute;
+}
+
 .button--shikoba:hover .bar-icon {
-	display: block;
-	animation: icon-shake 1s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
-	transform: translate3d(0, 0, 0);
-	perspective: 1000px;
+	animation-name: icon-shake;
+	animation-duration: 0.5s;
+	animation-timing-function: ease;
 }
 
 @keyframes icon-shake {
 
-	10%,
-	20% {
-		transform: translate3d(-2px, 0, 0);
-		transform: scaleY(1.2);
+	0% {
+		transform: scale(0);
 	}
 
-	20%,
 	30% {
-		transform: scaleY(1);
+		transform: scale(1);
 	}
 
-	20%,
+	50% {
+		transform: scale(0.6);
+	}
+
+	70% {
+		transform: scale(1);
+	}
+
+	90% {
+		transform: scale(0.7);
+	}
+
 	100% {
-		transform: translate3d(4px, 0, 0);
-		transform: scaleY(1);
-		-webkit-transform: translate3d(4px, 0, 0);
-		-moz-transform: translate3d(4px, 0, 0);
-		-ms-transform: translate3d(4px, 0, 0);
-		-o-transform: translate3d(4px, 0, 0);
+		transform: scale(1);
 	}
 }
 
 @keyframes btn-shake {
 
-	10%,
-	20% {
-		transform: translate3d(-2px, 0, 0);
+	0% {
+		transform: translateX(0px);
 	}
 
-	20%,
+	30% {
+		transform: translateX(30px);
+	}
+
+	50% {
+		transform: translateX(20px);
+	}
+
+	70% {
+		transform: translateX(30px);
+	}
+
+	90% {
+		transform: translateX(25px);
+	}
+
 	100% {
-		transform: translate3d(4px, 0, 0);
+		transform: translateX(30px);
 	}
 }
 
-.button--shikoba .bar-icon {
-	display: none;
-}
 
 .button--shikoba .button__icon {
 	position: absolute;
@@ -1352,9 +1373,8 @@ select {
 
 .button--shikoba:hover .button__icon,
 .button--shikoba:hover>span {
-	-webkit-transform: translate3d(0, 0, 0);
-	transform: translate3d(0, 0, 0);
-	animation: btn-shake 1s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+	transform: translateX(30px);
+	animation: btn-shake 0.4s ease;
 }
 
 .img-right-contianer-out {
