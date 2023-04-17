@@ -57,9 +57,9 @@ const Footer = () => {
                         <div className="col-md-12 col-lg-3 col-sm-12 mt-3 ps-0">
                             <h6 className="footer-heading">Contact Us</h6>
                             <ul>
-                                <li className='icons-list call-icon'><a href='' >+1 234 56789</a></li>
-                                <li className='icons-list email-icon'><a href='' >yourmail@mail.com </a></li>
-                                <li className='icons-list address-icon'><a href='' >Your address goes here</a></li>
+                                <li className='icons-list call-icon'><a href='tel:+971525278207' >+971525278207</a><br/><a href='tel:+971521647839' >+971521647839</a></li>
+                                <li className='icons-list email-icon'><a href='mailto:bilal.xbt@@gmail.com'>support@xerobittechnology.com</a></li>
+                                <li className='icons-list address-icon'>114 Alfahad new build 6 jumerah 1, Dubai</li>
                             </ul>
                         </div>
                     </div>

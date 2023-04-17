@@ -17,8 +17,8 @@ const Contactusicons = () => {
                             </div>
                             <div className='text-icons align-items-center'>
                                 <h3 className='font-weight-700 font-24-100 text_center_justification text-md_center '>Phone Number</h3>
-                                <p className='font-weight-400 font-16-100 text-dark-gray text_center_justification text-md_center m-0 pt-2'>+971521647839</p>
-                                <p className='font-weight-400 font-16-100 text-dark-gray text_center_justification text-md_center m-0 pt-2'>+971525278207</p>
+                                <p className='font-weight-400 font-16-100 text-dark-gray text_center_justification text-md_center m-0 pt-2'><a href="tel:+971521647839">+971521647839</a></p>
+                                <p className='font-weight-400 font-16-100 text-dark-gray text_center_justification text-md_center m-0 pt-2'><a href="tel:+971525278207">+971525278207</a></p></p>
                             </div>
                         </div>
                     </div>
