@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "component/styles/Images/logo";
+// import Logo from "component/styl/logo";
 import MenuList from "./menuList";
 
 function AppHeader() {
@@ -8,13 +8,13 @@ function AppHeader() {
       {/* <header className="custom-header">
         <a className="navbar-brand d-lg-inline-block d-none" to={""}>
           <div className="custom-header-logo">
-            
+
           </div>
         </a> */}
         <nav className="navbar navbar-expand-lg">
           <div className="container">
             <a className="navbar-brand" href="#">
-            <Logo />
+            {/*<Logo />*/}
           </a>
             <button
               className="navbar-toggler"
