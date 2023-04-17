@@ -5,10 +5,10 @@ import Card from "component/component/card";
 export default function Home() {
     return (
         <>
-          <div>
-              Numan
-              <Card/>
-          </div>
+            <div>
+                Xero Bit Technology
+                <Card />
+            </div>
         </>
     )
 }
