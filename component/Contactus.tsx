@@ -1,9 +1,44 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
 import contactusimage from "../assets/images/contactus.png"
 import AnimatedButton from './Animated-btn'
+import signalBar from '../assets/images/signalBars.svg'
+import signalBarBlack from '../assets/images/signalBarBlack.svg'
+import axios from 'axios'
 
 const Contactus = () => {
+
+    const [firstName, setfirstName] = useState('')
+    const [lastName, setlastName] = useState('')
+    const [email, setEmail] = useState('')
+    const [phone, setPhone] = useState('')
+    const [message, setMessage] = useState('')
+    const [loading, setloading] = useState(true)
+
+    const resetForm = () => {
+        setfirstName('')
+        setlastName('')
+        setEmail('')
+        setPhone('')
+        setMessage('')
+    }
+    useEffect(() => {
+        setTimeout(() => {
+            resetForm()
+        }, 1000)
+    }, [loading])
+
+    const handleSubmit = (e: any) => {
+        e.preventDefault()
+        axios
+            .post(`${process.env.BACKEND_API_URL}/contactus/add`, { email, firstName, lastName, phoneNo: phone, massage: message })
+            .then((response) => {
+                setloading(false)
+            })
+            .catch((error) => {
+                console.error(error);
+            });
+    }
     return (
         <>
             <section className='contactus pt-5 pb-5'>
@@ -30,7 +65,9 @@ const Contactus = () => {
                                                 className="form-control custom-input rounded-1"
                                                 name="firstname"
                                                 id="email"
+                                                value={firstName}
                                                 placeholder="First Name*"
+                                                onChange={(e) => { setfirstName(e.target.value) }}
                                             />
                                         </div>
                                     </div>
@@ -41,7 +78,10 @@ const Contactus = () => {
                                                 className="form-control custom-input rounded-1"
                                                 name="lastname"
                                                 id="email"
+                                                value={lastName}
                                                 placeholder="Last Name"
+                                                onChange={(e) => { setlastName(e.target.value) }}
+
                                             />
                                         </div>
                                     </div>
@@ -52,7 +92,10 @@ const Contactus = () => {
                                                 className="form-control custom-input rounded-1"
                                                 name="email"
                                                 id="email"
+                                                value={email}
                                                 placeholder="Email*"
+                                                onChange={(e) => { setEmail(e.target.value) }}
+
                                             />
                                         </div>
                                     </div>
@@ -63,7 +106,10 @@ const Contactus = () => {
                                                 className="form-control custom-input rounded-1"
                                                 name="number"
                                                 id="text"
+                                                value={phone}
                                                 placeholder="Phone*"
+                                                onChange={(e) => { setPhone(e.target.value) }}
+
                                             />
                                         </div>
                                     </div>
@@ -75,18 +121,27 @@ const Contactus = () => {
                                                 id="message"
                                                 cols={30}
                                                 rows={6}
+                                                value={message}
                                                 placeholder="Message*"
                                                 defaultValue={""}
+                                                onChange={(e) => { setMessage(e.target.value) }}
                                             />
                                         </div>
                                     </div>
                                     <div className="col-md-12">
                                         <div className="btn-center">
-                                            <AnimatedButton light={true} text='Send Message' />
+                                            <button
+                                                type='submit'
+                                                className="button button--shikoba button--round-s button--border-thin" onClick={(e) => handleSubmit(e)}>
+                                                <i className="button__icon icon icon-microphone"></i>
+                                                <div className='bar-icon'>
+                                                    <Image src={signalBar} alt='' />
+                                                </div>
+                                                <span className='btn_custome d-flex justify-content-center align-items-center'>Send Us Message</span>
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
-
                             </form>
 
                         </div>
@@ -94,8 +149,8 @@ const Contactus = () => {
                             <Image src={contactusimage} alt="contactusimage" className='img-fluid contactus-image ms-auto rounded-4' />
                         </div>
                     </div>
-                </div>
-            </section>
+                </div >
+            </section >
         </>
     )
 }

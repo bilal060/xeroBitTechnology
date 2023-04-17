@@ -9,7 +9,7 @@ const Projectidea = (props: any) => {
             <section className="project-plan ">
                 <Image src={leftimage} alt="left-image" className='img-fluid left-image' />
                 <div className="container project-idea">
-                    <h3 className='font-48 font-weight-700 text-white text-center text-capital mb-32px'>Our Portfolio of Success Stories</h3>
+                    <h3 className='font-48 font-weight-700 text-white text-center teconxt-capital mb-32px'>Our Portfolio of Success Stories</h3>
                     <div className='project-plan-desc'>
                         <p className='font-16 font-weight text-white text-center font-weight-400 opacity-06'>
                             At Xero Bit Technology, we pride ourselves on delivering exceptional results for our clients. Over the years, we have worked with businesses of all sizes, across various industries, and helped them achieve their digital goals. Our portfolio of success stories includes numerous satisfied clients who have benefited from our expertise in digital strategy, UX design, product design, content strategy, website design, and social media management.
