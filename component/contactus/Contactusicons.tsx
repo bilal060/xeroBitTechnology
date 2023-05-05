@@ -20,7 +20,7 @@ const Contactusicons = () => {
                                 <p className='font-weight-400 font-16-100 text-dark-gray text_center_justification text-md_center m-0 pt-2'>+1 234 56789</p>
                             </div>
                         </div>
-                    </div>
+                    </div>                
                     <div className='col-md-4 col-lg-4 col-12 mt-2 mb-2'>
                         <div className='contact-icons gap-43px h-100 px_45_40 rounded-16'>
                             <div className='big-icon'>

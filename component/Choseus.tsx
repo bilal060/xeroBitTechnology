@@ -22,7 +22,7 @@ const Choseus = () => {
                                         <Image src={ticker} alt='ticker' />
                                         <p><span className='font-weight-700'>Customized solutions: </span>We take the time to understand your business needs and provide customized solutions that meet your unique requirements.
                                         </p>
-                                    </li>
+                                    </li>    
                                     <li className='font-16 d-flex align-items-center gap-16px'>
                                         <Image src={ticker} alt='ticker' />
                                         <p><span className='font-weight-700'>Innovative approach: </span>We stay up-to-date with the latest technology and design trends to provide innovative solutions that help your business thrive.

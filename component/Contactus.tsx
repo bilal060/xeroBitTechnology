@@ -34,7 +34,7 @@ const Contactus = () => {
             .post(`${process.env.BACKEND_API_URL}/contactus/add`, { email, firstName, lastName, phoneNo: phone, massage: message })
             .then((response) => {
                 setloading(false)
-            })
+            })          
             .catch((error) => {
                 console.error(error);
             });

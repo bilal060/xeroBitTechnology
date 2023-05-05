@@ -29,16 +29,16 @@ const Blog = () => {
                             <h4 className='pb-lg-4 pb-3 m-0 font-24 font-weight-700 text-capital text_center_justification'>Lorem ipsum dolor sit amet</h4>
                             <p className='text_center_justification font-16 font-weight-400  mb-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.</p>
                             <a href='/blog' className=' d-flex gap-6px text-black font-16 font-weight-700 text-center align-items-center  justify-content-center justify-content-md-start'><span className='pb-1'>Read Blog</span>
-                                <BlogArrow />
+                                <BlogArrow />   
                             </a>
-                        </div>
+                        </div>     
                         <div className='col-md-6 col-lg-4 blog-inner'>
                             <Image src={blogimage3} alt="blog3" className='blogimg mt-2 mb-lg-4 mb-3 mx-auto d-block' />
                             <h4 className='pb-lg-4 pb-3 m-0 font-24 font-weight-700 text-capital text_center_justification'>Lorem ipsum dolor sit amet</h4>
                             <p className='text_center_justification font-16 font-weight-400  mb-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.</p>
                             <a href='/blog' className=' d-flex gap-6px text-black font-16 font-weight-700 text-center align-items-center  justify-content-center justify-content-md-start'><span className='pb-1'>Read Blog</span>
                                 <BlogArrow />
-                            </a>
+                            </a>    
                         </div>
                     </div>
                     <div className='d-flex justify-content-center pt-4 pb-4'>

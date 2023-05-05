@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import aboutusimagegroup from '../assets/images/aboutus.svg'
+import aboutusimagegroup from '../assets/images/aboutus.svg'       
 import ticker from '../assets/images/ticker.svg'
 import AnimatedButton from './Animated-btn'
 const Aboutus = () => {

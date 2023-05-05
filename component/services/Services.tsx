@@ -1,37 +1,64 @@
-import React from 'react'
-import Image from 'next/image'
-import arrow from "../../assets/images/arrow.svg"
-import AnimatedButton from '../Animated-btn'
-import Digital from 'component/assets/images/digital'
-import Ux from 'component/assets/images/ux'
-import ProductDesign from 'component/assets/images/product'
-import ContentStrategy from 'component/assets/images/content'
-import DesignConcept from 'component/assets/images/design'
-import SocialMedia from 'component/assets/images/social'
+import CallAPI from "component/component/APICall";
+import React, { useState, useEffect } from "react";
+import AnimatedButton from "../Animated-btn";
+import Digital from "component/assets/images/digital";
+// import Ux from 'component/assets/images/ux'
+// import ProductDesign from 'component/assets/images/product'
+// import ContentStrategy from 'component/assets/images/content'
+// import DesignConcept from 'component/assets/images/design'
+// import SocialMedia from 'component/assets/images/social'
 
 const Services = () => {
-    return (
-        <>
-            <section className="container services pb-5 mt-5 font-family-primary">
-                <h6 className='section-first-heading text-center pt-2 pb-2'>Our Services</h6>
-                <h2 className='section-sub-heading text-center text-capital pb-4'>Revolutionize Your Digital Landscape With Our Expertise </h2>
-                <p className='font-16 font-weight-400 text-dark-gray text-center pb-4'>We offer a range of services to meet your business needs, including:</p>
+  const [arrayData, setArrayData] = useState([]);
 
-                <div className="row spacing_page gy-5">
-                    <div className="col-sm-12 col-md-6 col-lg-4">
-                        <div className="services-cards d-flex flex-column justify-content-between">
-                            <div>
-                                <Digital />
-                                <h3 className='font-24 font-weight-700 text-dark-gray'>Digital Strategy</h3>
-                                <p className='font-16 font-weight-400 opacity-06'>We can work with you to create a comprehensive digital strategy that aligns with your business goals and maximizes ROI.</p>
-                           </div>
-                           
-                            <a href='' className="d-flex justify-content-end">
-                                <Image src={arrow} alt="arrow" />
-                            </a>
-                        </div>
+  useEffect(() => {
+    const fetchData = async () => {
+      const response = await CallAPI("service");
+      const jsonResponse = await response.data;
+      if (jsonResponse) {
+        setArrayData(jsonResponse?.services);
+        console.log("array = ", arrayData);
+      }
+    };
+    fetchData();
+  }, []);
+  return (
+    <>
+      <section className="container services pb-5 mt-5 font-family-primary">
+        <h6 className="section-first-heading text-center pt-2 pb-2">
+          Our Services
+        </h6>
+        <h2 className="section-sub-heading text-center text-capital pb-4">
+          Revolutionize Your Digital Landscape With Our Expertise  
+        </h2>
+        <p className="font-16 font-weight-400 text-dark-gray text-center pb-4">
+          We offer a range of services to meet your business needs, including:
+        </p>  
+
+        <div className="row spacing_page gy-5">
+          {arrayData.map((val: any, index) => {
+            if (val._id) {
+              return (
+                <div className="col-sm-12 col-md-6 col-lg-4">
+                  <div className="services-cards d-flex flex-column justify-content-between">
+                    <div>
+                      <Digital />
+                      <h3 className="font-24 font-weight-700 text-dark-gray">
+                        {val.serviceCategory}
+                      </h3>
+                      <p className="font-16 font-weight-400 opacity-06">
+                        {val.description}
+                      </p>
                     </div>
-                    <div className="col-sm-12 col-md-6 col-lg-4">
+                    <a href="" className="d-flex justify-content-end">
+                      <img src={val.serviceImage} alt="arrow" />
+                    </a>
+                  </div>
+                </div>
+              );
+            }
+          })}
+          {/* <div className="col-sm-12 col-md-6 col-lg-4">
                         <div className="services-cards d-flex flex-column justify-content-between">
                             <Ux />
                             <h3 className='font-24 font-weight-700 text-dark-gray'>UX Design</h3>
@@ -88,14 +115,14 @@ const Services = () => {
                                 <Image src={arrow} alt="arrow" />
                             </a>
                         </div>
-                    </div>
-                </div>
-                <div className='d-flex justify-content-center pt-4 pb-4'>
-                    <AnimatedButton hrefto="services" light={true} text='Learn More' />
-                </div>
-            </section>
-        </>
-    )
-}
+                    </div> */}
+        </div>
+        <div className="d-flex justify-content-center pt-4 pb-4">
+          <AnimatedButton hrefto="services" light={true} text="Learn More" />
+        </div>
+      </section>
+    </>
+  );
+};
 
-export default Services
+export default Services;

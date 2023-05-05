@@ -7,12 +7,12 @@ import Websolutions from 'component/component/webdevelopment/Websolutions'
 import Portfolioslider from 'component/component/webdevelopment/Portfolioslider'
 import Technologie from 'component/component/webdevelopment/Technologie'
 import Footer from 'component/component/Footer'
-import Link from 'next/link'
+import Link from 'next/link'     
 import PaginationArrow from 'component/assets/images/paginationArrow'
 export default function Webdeveloment() {
     return (
         <>
-            <header className='main-header'>
+            <header className='main-header'>     
                 <Navbar />
                 <div className='mainheader-hero'>
                     <div className='pagination-hero'>

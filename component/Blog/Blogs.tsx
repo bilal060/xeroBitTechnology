@@ -102,7 +102,7 @@ const BlogContent = () => {
         console.log("array = ", arrayData);
       }
     };
-    fetchData();
+    fetchData();            
   }, []);    
       
   return (
@@ -121,7 +121,7 @@ const BlogContent = () => {
                     {/* <Image src={data.image} alt="blog1" className='blogimg w-100 mt-2  mb-3 mx-auto d-block' /> */}
                     {val.blogImage && val.blogImage.includes(`src\\`) ? (
                       <img               
-                        src={`${
+                        src={`${     
                           process.env.API_URL || "http://localhost:3500"
                         }/${val.blogImage}`}
                         alt="Blog Image"
@@ -132,13 +132,12 @@ const BlogContent = () => {
                         src={`${val.blogImage}`}
                         alt="Blog Image" 
                         className="blogimg w-100 mt-2  mb-3 mx-auto d-block"
-                      />
+                      />     
                     )}
                     <h4 className="pb-lg-4 pb-3 m-0 font-24 font-weight-700 text-capital text_center_justification">
-                      {val.blogTitle}
+                      {val.blogTitle}     
                     </h4>       
-                    <p className="text_center_justification font-16 font-weight-400 mb-3">
-                    {val.description}
+                    <p className="text_center_justification font-16 font-weight-400 mb-3"  dangerouslySetInnerHTML={{ __html: val.description }}>
                   </p>
                     <a
                       href="/blog"
@@ -146,7 +145,7 @@ const BlogContent = () => {
                     >
                       <span className="pb-1">Read Blog</span>
                       <BlogArrow />
-                    </a>
+                    </a>              
                   </div>
                 );
               }
