@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import PaginationArrow from 'component/assets/images/paginationArrow'
 import Navbar from 'component/component/Navbar'
 import Link from 'next/link'
@@ -49,9 +50,31 @@ function Blog() {
 
             <div className='blog-detail'>
                 <p className="blog-type">{Blogdata.blogCategory}</p>
-
+                {Blogdata.blogImage && Blogdata.blogImage.includes(`src\\`) ? (
+                    <img
+                        src={`${process.env.API_URL || "http://localhost:3500"
+                            }/${Blogdata.blogImage}`}
+                        alt="Blog Image"
+                        className="blogimg w-100 mt-2  mb-3 mx-auto d-block"
+                    />
+                ) : (
+                    <img
+                        src={`${Blogdata.blogImage}`}
+                        alt="Blog Image"
+                        className="blogimg w-100 mt-2  mb-3 mx-auto d-block"
+                    />
+                )}
                 <h2>{Blogdata.blogTitle}</h2>
-
+                <p
+                    className="text_center_justification font-16 font-weight-400 mb-3"
+                    dangerouslySetInnerHTML={{ __html: (Blogdata.description) }}
+                    style={{
+                        textAlign: "justify",
+                        fontWeight: 400,
+                        fontSize: "16px",
+                        lineHeight: "20px",
+                    }}
+                ></p>
                 <div className='d-flex justify-content-between align-items-center'>
                     <div className='d-flex align-items-center'>
                         <div className="source-logo"></div>
