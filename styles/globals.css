@@ -1500,7 +1500,7 @@ select {
 /* Blog Detail */
 .w-912{
 width: 912px;
-} 
+}
 .h-608{
 height: 608px;
 }
@@ -1512,4 +1512,101 @@ height: 608px;
 }
 .bluishText{
 	color: #5390A5;
+}
+.font-weight-bold{
+  font-weight: bold !important;
+}
+.profile-card{
+  background-color: #F6F9FB;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+.profile-card .profile-image{
+margin: 0 auto;
+}
+.profile-card .profile-name{
+  text-align: center;
+  font-family: var(--ff-primary);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    text-transform: capitalize;
+}
+.profile-card .profile-about{
+  font-family: var(--ff-primary);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #3F3434;
+}
+.profile-card .profile-detail{
+font-family: var(--ff-primary);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  color: #3F3434;
+}
+.profile-card .profile-detail .link{
+  color: #5390A5;
+}
+.hr{
+  width: 90%;
+  margin: 32px auto;
+}
+.blogs-papular .blog-papular-heading{
+    font-family: var(--ff-primary);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    text-transform: capitalize;
+}
+.blogs-papular .blog-papular-title{
+  font-family: var(--ff-primary);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 17px;
+    text-transform: capitalize;
+}
+.blogs-papular .blog-papular-details{
+  font-family: var(--ff-primary);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.profile-contet{
+  font-family: var(--ff-primary);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+}
+.profile-color-text{
+color: #5390A5;
+}
+.profile-date{
+  font-family: var(--ff-primary);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #A3A3A3;
+}
+.blog-content{
+  font-family: var(--ff-primary);
+  font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
