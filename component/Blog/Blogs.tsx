@@ -40,7 +40,7 @@ const BlogContent = () => {
                     key={index}
                     className="col-md-6 col-lg-4 mb-5 blog-inner text-black"
                   >
-                    {/* <Image src={data.image} alt="blog1" className='blogimg w-100 mt-2  mb-3 mx-auto d-block' /> */}
+                    {/* <Image src={data.image} alt="blog1" className='blogimg blog-image-top w-100 mt-2  mb-3 mx-auto d-block' /> */}
                     {val.blogImage && val.blogImage.includes(`src\\`) ? (
                       <img
                         src={`${process.env.API_URL || "http://localhost:3500"

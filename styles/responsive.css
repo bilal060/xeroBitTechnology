@@ -210,6 +210,9 @@
   .step-bar::after {
     width: 60% !important;
   }
+     .pt-sm {
+       padding-top: 16px;
+     }
 }
 
 @media (max-width: 767.98px) {
@@ -330,13 +333,15 @@
     font-size: 40px !important;
     line-height: 50px !important;
   }
+     .pt-sm {
+       padding-top: 16px;
+     }
 }
 
 @media screen and (max-width: 576px) {
   .step-bar::after {
     width: 100% !important;
   }
-
   .portofolio-card .overview-image svg {
     width: 100% !important;
   }
@@ -372,6 +377,9 @@
   .font-56 {
     font-size: 32px !important;
     line-height: 38px !important;
+  }
+  .pt-sm{
+    padding-top: 16px;
   }
 }
 

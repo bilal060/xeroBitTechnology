@@ -4,6 +4,8 @@ import Footer from 'component/component/Footer'
 import Link from 'next/link'
 import PaginationArrow from 'component/assets/images/paginationArrow'
 import PortofolioContent from './portofolioContent'
+
+
 export default function Portfoliopage() {
   return (
     <>

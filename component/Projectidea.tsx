@@ -26,4 +26,4 @@ const Projectidea = (props: any) => {
     )
 }
 
-export default Projectidea
+export default Projectidea                      

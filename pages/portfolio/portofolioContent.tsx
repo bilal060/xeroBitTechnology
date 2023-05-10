@@ -1,83 +1,10 @@
+/* eslint-disable @next/next/no-img-element */
 import BlogArrow from "component/assets/images/blogArrow";
 import CallAPI from "component/component/APICall";
 import React, { useState, useEffect } from "react";
-// const feedBack = [
-//     {
-//         id: 1,
-//         comments: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.',
-//         name: 'Project Name',
-//         projectOverview: <WebSlider />
-//     },
-//     {
-//         id: 2,
-//         comments: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.',
-//         name: 'Project Name',
-//         projectOverview: <WebSlider />
-//     },
-//     {
-//         id: 3,
-//         comments: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.',
-//         name: 'Project Name',
-//         projectOverview: <WebSlider />
-//     },
-//     {
-//         id: 4,
-//         comments: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.',
-//         name: 'Project Name',
-//         projectOverview: <WebSlider />
+import Servicespage from "./projectdetails";
+import Link from "next/link";
 
-//     },
-//     {
-//         id: 5,
-//         comments: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.',
-//         name: 'Project Name',
-//         projectOverview: <WebSlider />
-//     },
-//     {
-//         id: 6,
-//         comments: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.',
-//         name: 'Project Name',
-//         projectOverview: <WebSlider />
-//     },
-//     {
-//         id: 4,
-//         comments: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.',
-//         name: 'Project Name',
-//         projectOverview: <WebSlider />
-
-//     },
-//     {
-//         id: 5,
-//         comments: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.',
-//         name: 'Project Name',
-//         projectOverview: <WebSlider />
-//     },
-//     {
-//         id: 6,
-//         comments: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.',
-//         name: 'Project Name',
-//         projectOverview: <WebSlider />
-//     },
-//     {
-//         id: 4,
-//         comments: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.',
-//         name: 'Project Name',
-//         projectOverview: <WebSlider />
-
-//     },
-//     {
-//         id: 5,
-//         comments: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.',
-//         name: 'Project Name',
-//         projectOverview: <WebSlider />
-//     },
-//     {
-//         id: 6,
-//         comments: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.',
-//         name: 'Project Name',
-//         projectOverview: <WebSlider />
-//     },
-// ]
 const PortofolioContent = () => {
   const [arrayData, setArrayData] = useState([]);
 
@@ -109,24 +36,44 @@ const PortofolioContent = () => {
                     <h4 className="font-18 font-weight-700 mb-3">
                       {val.projectTitle}
                     </h4>
-                    <p className="font-14 font-weight-400 mb-3">
-                      {val.description}
+                    <p className="font-14 font-weight-400 mb-3" dangerouslySetInnerHTML={{ __html: (val.description) }}
+                      style={{
+                        textAlign: "justify",
+                        fontWeight: 400,
+                        fontSize: "16px",
+                        lineHeight: "20px",
+                      }}
+                    >
                     </p>
-                    <a
-                      href=""
+                    <Link href="/portfolio/projectdetails"
                       className="mb-4 d-flex gap-6px text-black font-14 font-weight-700 text-center align-items-center"
                     >
+
                       <span className="pb-1">View Project</span>
                       <BlogArrow />
-                    </a>
+
+                    </Link>
                   </div>
-                  <div className="overview-image">{val.projectImage}</div>
+                  <div className="overview-image">
+                    {val.projectImage[0] && val.projectImage[0].includes(`src\\`) ? (
+                      <img
+                        src={`${process.env.API_URL || "http://localhost:3500"
+                          }/${val.projectImage[0]}`}
+                        alt="protfloio Image"
+                      />
+                    ) : (
+                      <img
+                        src={`${val.projectImage[0]}`}
+                        alt="portfolio Image"
+                      />
+                    )}
+                  </div>
                 </div>
               </div>
             );
           }
         })}
-        
+
       </div>
     </div>
   );

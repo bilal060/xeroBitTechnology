@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable react/jsx-key */
 import CallAPI from "component/component/APICall";
 import React, { useState, useEffect } from "react";
 import AnimatedButton from "../Animated-btn";
@@ -18,7 +20,7 @@ const Services = () => {
       if (jsonResponse) {
         setArrayData(jsonResponse?.services);
         console.log("array = ", arrayData);
-      }
+      } //services
     };
     fetchData();
   }, []);
@@ -29,11 +31,11 @@ const Services = () => {
           Our Services
         </h6>
         <h2 className="section-sub-heading text-center text-capital pb-4">
-          Revolutionize Your Digital Landscape With Our Expertise  
+          Revolutionize Your Digital Landscape With Our Expertise
         </h2>
         <p className="font-16 font-weight-400 text-dark-gray text-center pb-4">
           We offer a range of services to meet your business needs, including:
-        </p>  
+        </p>
 
         <div className="row spacing_page gy-5">
           {arrayData.map((val: any, index) => {

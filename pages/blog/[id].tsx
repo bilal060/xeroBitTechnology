@@ -62,13 +62,13 @@ function Blog() {
                     <h2 className='section-sub-heading font-weight-700 font-36-46 pt-2 pb-2 text_center_justification pt-2'>{Blogdata.blogTitle}</h2>
                 </div>
                 <div className='row pb-4'>
-                    <div className='col-md-3'>
-                        <div className='d-flex flex-row align-items-center'>
+                    <div className='col-md-12 col-lg-3 col-sm-12'>
+                        <div className='d-flex flex-row align-items-center justify-content-lg-start justify-content-sm-center justify-content-center justify-content-md-start'>
                             <Image src={blogicon} alt="icon" />
                             <h6 className='font-weight-500 font-16-100 ps-3'>By <span className='text-xero-primary'>{Blogdata.source}</span></h6>
                         </div>
                     </div>
-                    <div className='col-md-3 d-flex flex-row align-items-center justify-content-center'>
+                    <div className='col-md-12 col-lg-3 pt-sm col-sm-12 d-flex flex-row align-items-center justify-content-lg-center justify-content-center justify-content-md-start justify-content-sm-center'>
                         <Dateicon />
                         <span className='font-weight-500 font-16-100 ps-3'>Published on {
                             ' ' + monthNames[new Date(Blogdata.createdAt).getMonth()] + ' '
@@ -80,8 +80,8 @@ function Blog() {
                                 ' ' + new Date(Blogdata.createdAt).getFullYear()
                             }</span>
                     </div>
-                    <div className='col-md-3 d-flex flex-row align-items-center justify-content-end'>
-                        <div className='sc-icon ps-4'>
+                    <div className='col-md-12 col-lg-3 pt-sm col-sm-12 d-flex flex-row align-items-center justify-content-center justify-content-sm-center justify-content-md-start justify-content-lg-end'>
+                        <div className='sc-icon'>
                             <a href=''>
                                 <Image src={fb} alt="fb" />
                             </a>
@@ -110,7 +110,6 @@ function Blog() {
                 </div>
                 <div className='row'>
                     <div className='blog-detail col-lg-9 col-md-9'>
-
                         <div className='blog-detail-image'>
                             {Blogdata.blogImage && Blogdata.blogImage.includes(`src\\`) ? (
                                 <img
