@@ -5,8 +5,6 @@ import PaginationArrow from 'component/assets/images/paginationArrow'
 import BlogContent from 'component/component/Blog/Blogs'
 import ExploreTopics from './exploreTopics'
 
-
-
 const blog = () => {
     return (
         <>

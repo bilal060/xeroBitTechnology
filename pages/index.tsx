@@ -7,12 +7,11 @@ import Services from 'component/component/services/Services'
 import Aboutus from 'component/component/Aboutus'
 import Projectidea from 'component/component/Projectidea'
 import Choseus from 'component/component/Choseus'
-import Blog from 'component/component/Blog'
 import Contactus from 'component/component/Contactus'
 import Testimonial from 'component/component/Testimonial/Testimonial'
 import Footer from 'component/component/Footer'
 import AnimatedButton from 'component/component/Animated-btn'
-import BlogContent from 'component/component/Blog/Blogs'
+import Blog from 'component/component/Blog'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -34,9 +33,9 @@ export default function Home() {
       <Projectidea light={true} />
       <Choseus />
       <Testimonial />
-      <BlogContent />
+      <Blog />
       <Contactus />
       <Footer />
-    </>                                  
+    </>
   )
 }

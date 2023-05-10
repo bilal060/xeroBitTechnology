@@ -6,39 +6,44 @@ import signalBar from '../assets/images/signalBars.svg'
 import signalBarBlack from '../assets/images/signalBarBlack.svg'
 import axios from 'axios'
 
-const Contactus = () => {
 
-    const [firstName, setfirstName] = useState('')
-    const [lastName, setlastName] = useState('')
-    const [email, setEmail] = useState('')
-    const [phone, setPhone] = useState('')
-    const [message, setMessage] = useState('')
-    const [loading, setloading] = useState(true)
+const Contactus = () => {
+    const [firstName, setfirstName] = useState('');
+    const [lastName, setlastName] = useState('');
+    const [email, setEmail] = useState('');
+    const [phone, setPhone] = useState('');
+    const [message, setMessage] = useState('');
+    const [loading, setloading] = useState(true);
+    const [successMessage, setSuccessMessage] = useState('');
 
     const resetForm = () => {
-        setfirstName('')
-        setlastName('')
-        setEmail('')
-        setPhone('')
-        setMessage('')
-    }
-    useEffect(() => {
-        setTimeout(() => {
-            resetForm()
-        }, 1000)
-    }, [loading])
+        setfirstName('');
+        setlastName('');
+        setEmail('');
+        setPhone('');
+        setMessage('');
+    };
 
     const handleSubmit = (e: any) => {
-        e.preventDefault()
+        e.preventDefault();
         axios
-            .post(`${process.env.BACKEND_API_URL}/contactus/add`, { email, firstName, lastName, phoneNo: phone, massage: message })
+            .post(`${process.env.BACKEND_API_URL}/contactus/add`, {
+                email,
+                firstName,
+                lastName,
+                phoneNo: phone,
+                massage: message,
+            })
             .then((response) => {
-                setloading(false)
-            })          
+                setSuccessMessage('Message send successfully!');
+                setloading(false);
+                resetForm();
+            })
             .catch((error) => {
                 console.error(error);
             });
-    }
+    };
+
     return (
         <>
             <section className='contactus pt-5 pb-5'>
@@ -50,7 +55,7 @@ const Contactus = () => {
                             <p className='font-18 text-dark-gray font-weight-400 mb-5'>
                                 Ready to make your business stand out in this digital world? Contact us today to arrange a consultation with one of our experts
                             </p>
-
+                            {successMessage && <p>{successMessage}</p>}
                             <form
                                 method="POST"
                                 id="contactForm"
@@ -68,6 +73,7 @@ const Contactus = () => {
                                                 value={firstName}
                                                 placeholder="First Name*"
                                                 onChange={(e) => { setfirstName(e.target.value) }}
+                                                required
                                             />
                                         </div>
                                     </div>
@@ -81,7 +87,7 @@ const Contactus = () => {
                                                 value={lastName}
                                                 placeholder="Last Name"
                                                 onChange={(e) => { setlastName(e.target.value) }}
-
+                                                required
                                             />
                                         </div>
                                     </div>
@@ -95,7 +101,7 @@ const Contactus = () => {
                                                 value={email}
                                                 placeholder="Email*"
                                                 onChange={(e) => { setEmail(e.target.value) }}
-
+                                                required
                                             />
                                         </div>
                                     </div>
@@ -109,7 +115,7 @@ const Contactus = () => {
                                                 value={phone}
                                                 placeholder="Phone*"
                                                 onChange={(e) => { setPhone(e.target.value) }}
-
+                                                required
                                             />
                                         </div>
                                     </div>
@@ -125,6 +131,7 @@ const Contactus = () => {
                                                 placeholder="Message*"
                                                 defaultValue={""}
                                                 onChange={(e) => { setMessage(e.target.value) }}
+                                                required
                                             />
                                         </div>
                                     </div>
