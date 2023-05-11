@@ -33,7 +33,7 @@ export default function Home() {
       <Projectidea light={true} />
       <Choseus />
       <Testimonial />
-      <Blog />
+      <Blog  />
       <Contactus />
       <Footer />
     </>

@@ -2,9 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React, { useState, useEffect } from "react";
 import CallAPI from "./APICall";
-import Image from 'next/image'
 import AnimatedButton from './Animated-btn'
-import Ux from 'component/assets/images/ux'
 import BlogArrow from 'component/assets/images/blogArrow'
 
 const Blog = () => {

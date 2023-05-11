@@ -1,13 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import PaginationArrow from 'component/assets/images/paginationArrow'
 import Navbar from 'component/component/Navbar'
-import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
-import ExploreTopics from './exploreTopics'
-import BlogContent from 'component/component/Blog/Blogs'
 import Footer from 'component/component/Footer'
 import { useRouter } from 'next/router'
-import axios from 'axios'
 import CallAPI from 'component/component/APICall'
 import Image from 'next/image'
 import blogicon from "../../assets/images/blogicon.svg"
