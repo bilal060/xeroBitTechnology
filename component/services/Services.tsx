@@ -80,7 +80,7 @@ const Services = () => {
                         {imageArray[index].text}
                       </p>
                     </div>
-                    <a href="" className="d-flex justify-content-end">
+                    <a href={`services/${val._id}`} className="d-flex justify-content-end">
                       <Image src={arrow} alt="arrow" />
                     </a>
                   </div>

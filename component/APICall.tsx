@@ -17,6 +17,23 @@ const CallAPI = async (data: any) => {
     console.error(error);
   }
 };
+const FindoneCall = async (data: any) => {
+  console.log(data);
+  try {
+    return await axios
+      .get(`${url}/${data}`)
+      .then(function (response) {
+        return response;
+      })
+      .catch(function (error) {
+        console.log(error);
+        return error;
+      })
+      .finally(function () { });
+  } catch (error) {
+    console.error(error);
+  }
+};
 
 export default CallAPI;
-
+export { FindoneCall };

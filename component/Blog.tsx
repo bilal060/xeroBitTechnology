@@ -75,9 +75,9 @@ const Blog = () => {
                         })}
                     </div>
                     <div className='d-flex justify-content-center pt-4 pb-4'>
-                        <a href="/blog">
-                            <AnimatedButton hrefto="blog" light={true} text='View All' />
-                        </a>
+
+                        <AnimatedButton hrefto="blog" light={true} text='View All' />
+
                     </div>
                 </div>
             </section>
