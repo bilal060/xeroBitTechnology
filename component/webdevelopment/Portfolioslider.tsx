@@ -13,7 +13,7 @@ const feedBack = [
         projectOverview: <WebSlider />
     },
     {
-        id: 2,
+        id: 2,                          
         comments: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec vulputate lectus, in accumsan leo. Aliquam tempor orci sed ex facilisis vestibulum.',
         name: 'Project Name',
         projectOverview: <WebSlider />

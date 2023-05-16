@@ -39,7 +39,7 @@ const PortofolioContent = () => {
                     <p className="font-14 font-weight-400 mb-3" dangerouslySetInnerHTML={{ __html: (val.description) }}
                       style={{
                         textAlign: "justify",
-                        fontWeight: 400,
+                        fontWeight: 500,
                         fontSize: "16px",
                         lineHeight: "20px",
                       }}

@@ -44,6 +44,7 @@ function Uxuidesignpage() {
 
     return (
         <>
+
             <header className='main-header'>
                 <Navbar />
                 <div className='mainheader-hero'>
@@ -55,9 +56,7 @@ function Uxuidesignpage() {
                     <h1 className='font-weight-700 font-56 pt-2'>{Servicedata.servicename}</h1>
                 </div>
             </header>
-            <Uxuidesign />
-            {Servicedata.servicename === 'UX/UI Design' && <Projectidea light={true} />}
-            <Uxuidetails />
+            <Uxuidesign servicename={Servicedata.servicename} />
             {Servicedata.servicename === 'Product Development' && <Webcustomization />}
             {Servicedata.servicename === 'Product Development' && <Buildingsolutions />}
             {Servicedata.servicename === 'Product Development' && <Technologie />}
