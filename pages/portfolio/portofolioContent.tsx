@@ -2,7 +2,7 @@
 import BlogArrow from "component/assets/images/blogArrow";
 import CallAPI from "component/component/APICall";
 import React, { useState, useEffect } from "react";
-import Servicespage from "./projectdetails";
+import Servicespage from "./[id]";
 import Link from "next/link";
 
 const PortofolioContent = () => {
@@ -45,25 +45,24 @@ const PortofolioContent = () => {
                       }}
                     >
                     </p>
-                    <Link href="/portfolio/projectdetails"
-                      className="mb-4 d-flex gap-6px text-black font-14 font-weight-700 text-center align-items-center"
+                    <a href={`projects/${val._id}`} className="mb-4 d-flex gap-6px text-black font-14 font-weight-700 text-center align-items-center"
                     >
 
                       <span className="pb-1">View Project</span>
                       <BlogArrow />
 
-                    </Link>
+                    </a>
                   </div>
                   <div className="overview-image">
-                    {val.projectImage[0] && val.projectImage[0].includes(`src\\`) ? (
+                    {val.projectImage && val.projectImage.includes(`src\\`) ? (
                       <img
                         src={`${process.env.API_URL || "http://localhost:3500"
-                          }/${val.projectImage[0]}`}
+                          }/${val.projectImage}`}
                         alt="protfloio Image"
                       />
                     ) : (
                       <img
-                        src={`${val.projectImage[0]}`}
+                        src={`${val.projectImage}`}
                         alt="portfolio Image"
                       />
                     )}

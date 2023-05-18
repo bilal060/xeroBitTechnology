@@ -25,7 +25,7 @@ function Uxuidesignpage() {
         servicename: "Loading....",
         slug: "Loading...."
     });
-
+                
 
     const fetchData = async () => {
         const response = await FindoneCall(`service/${id}`);
