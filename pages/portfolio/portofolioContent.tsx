@@ -45,7 +45,7 @@ const PortofolioContent = () => {
                       }}
                     >
                     </p>
-                    <a href={`projects/${val._id}`} className="mb-4 d-flex gap-6px text-black font-14 font-weight-700 text-center align-items-center"
+                    <a href={`../portfolio/${val._id}`} className="mb-4 d-flex gap-6px text-black font-14 font-weight-700 text-center align-items-center"
                     >
 
                       <span className="pb-1">View Project</span>

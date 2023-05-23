@@ -15,7 +15,7 @@ const CallAPI = async (data: any) => {
       .finally(function () { });
   } catch (error) {
     console.error(error);
-  }
+  }                     
 };
 const FindoneCall = async (data: any) => {
   console.log(data);

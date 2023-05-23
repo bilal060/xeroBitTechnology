@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Head from 'next/head'
 import Navbar from 'component/component/Navbar'
 import Footer from 'component/component/Footer'
@@ -10,7 +11,7 @@ export default function Servicespage() {
 
 
     const router = useRouter()
-    const { _id } = router.query
+    const { id } = router.query
 
     const [loading, setloading] = useState(true)
 
@@ -23,9 +24,10 @@ export default function Servicespage() {
 
 
     const fetchData = async () => {
-        const response = await FindoneCall(`project/${_id}`);
+        const response = await FindoneCall(`project/${id}`);
         const res = response.json
-        const jsonResponse = await response.data;
+        const jsonResponse = await response.data.project;
+        console.log(jsonResponse);
         if (jsonResponse) {
             setProjectdata(jsonResponse);
             setloading(false)
@@ -34,8 +36,8 @@ export default function Servicespage() {
     };
 
     useEffect(() => {
-        _id && fetchData();
-    }, [_id]);
+        id && fetchData();
+    }, [id]);
 
 
     return (
@@ -62,7 +64,20 @@ export default function Servicespage() {
                                     </div>
                                 </div>
                                 <div className='col-4'>
-                                    {/* <WebSlider /> */}
+                                    <div className="overview-image">
+                                        {Projectdata.projectImage && Projectdata.projectImage.includes(`src\\`) ? (
+                                            <img
+                                                src={`${process.env.API_URL || "http://localhost:3500"
+                                                    }/${Projectdata.projectImage}`}
+                                                alt="protfloio Image"
+                                            />
+                                        ) : (
+                                            <img
+                                                src={`${Projectdata.projectImage}`}
+                                                alt="portfolio Image"
+                                            />
+                                        )}
+                                    </div>
                                 </div>
                             </div>
                         </div>
