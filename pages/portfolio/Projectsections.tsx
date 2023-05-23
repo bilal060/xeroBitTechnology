@@ -147,12 +147,12 @@ const Projectsections = () => {
                                                 <img
                                                     src={`${process.env.API_URL || "http://localhost:3500"
                                                         }/${section.projectSectionImage}`}
-                                                    alt="protfloio Image"
+                                                    alt="protfloio Image" className='image-fillter'
                                                 />
                                             ) : (
                                                 <img
                                                     src={`${section.projectSectionImage}`}
-                                                    alt="portfolio Image"
+                                                    alt="portfolio Image" className='image-fillter'
                                                 />
                                             )}
                                         </div>
